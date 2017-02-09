@@ -53,6 +53,17 @@ While maintaining the advantages of fully convolutional networks, instance-sensi
 * Categories: Computer Vision, Machine Learning
 * Tag: Object detection
 
-This work tried to solve people detection in crowded scenes by replacing NMS with a LSTM network in faster RCNN framework. In order to train the LSTM to produce boxes in order of the descending confidence, the authors proposed a special Hungarian loss, which is based on Hungarian algorithm. The loss is elaborate and  diffierentiable almost everywhere.
+This work tried to solve people detection in crowded scenes by replacing NMS with a LSTM network in faster RCNN framework. In order to train the LSTM to produce boxes in order of the descending confidence, the authors proposed a special Hungarian loss, which is based on Hungarian algorithm. The loss is elaborate and diffierentiable almost everywhere.
 
 The idea of the proposed loss is to treat boxes combination problem as a *graph minimum-cut problem*. In the testing part, the detector should stitch boxes from different blocks grabbed from the original data. It also performs a graph minimum-cut rather than NMS.
+
+### Deep Learning with Dynamic Computation Graphs
+* Authors: Moshe Looks, Marcello Herreshoff, DeLesley Hutchins, Peter Norvig
+* Index: ICLR 2017
+* Reading date: 09/02/2017
+* Categories: Machine Learning
+* Tag: Machine learning library
+
+This paper proposed to use dynamic batching algorithm on a dynamic computation graph to accelerate the training of deep learning model with complicate structures like tree.
+
+At the same time they also provided a combinator library for neural networks based on Tensorflow, which simplifies the coding of building dynamic computation graph. The library is inspired by functional programming language, which is suitable for describing combination structures.
