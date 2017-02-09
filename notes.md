@@ -45,3 +45,14 @@ While maintaining the advantages of fully convolutional networks, instance-sensi
  This work proposed an architecture guidelines for stable Deep Convolutional GANs based on experiments. They found that fractional-strided convolutions are always better for generator compared to pooling layers. And fully connected hidden layers should be removed.
 
  They also tried to "walk" on the mainfold of the latent space and manipulate the generator representation. They found that on the faces dataset, it is possible to get representation of a concept by averaging some samples of the face images following this concept. The arithmetic operation on these vector is able to produce expecting latent representation. This experiment shows that GAN really learns a meaningful representation.
+
+### End-to-end People Detection in Crowded Scenes
+* Authors: Russel Stewart, Mykhaylo Andriluka, Andrew Y. Ng
+* Index: CVPR 2016
+* Reading date: 09/02/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection
+
+This work tried to solve people detection in crowded scenes by replacing NMS with a LSTM network in faster RCNN framework. In order to train the LSTM to produce boxes in order of the descending confidence, the authors proposed a special Hungarian loss, which is based on Hungarian algorithm. The loss is elaborate and  diffierentiable almost everywhere.
+
+The idea of the proposed loss is to treat boxes combination problem as a *graph minimum-cut problem*. In the testing part, the detector should stitch boxes from different blocks grabbed from the original data. It also performs a graph minimum-cut rather than NMS.
