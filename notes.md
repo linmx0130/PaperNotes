@@ -67,3 +67,14 @@ The idea of the proposed loss is to treat boxes combination problem as a *graph 
 This paper proposed to use dynamic batching algorithm on a dynamic computation graph to accelerate the training of deep learning model with complicate structures like tree.
 
 At the same time they also provided a combinator library for neural networks based on Tensorflow, which simplifies the coding of building dynamic computation graph. The library is inspired by functional programming language, which is suitable for describing combination structures.
+
+### Automatic Rule Extration From Long Short Term Memory Networks
+* Authors: W. James Murdosh, Arthur Szlam
+* Index: ICLR 2017, arXiv 1702.02540
+* Reading date: 13/02/2017
+* Categories: Recurrent Neural Network, Machine Learning
+* Tag: LSTM
+
+This paper proposed a method to exploit rule patterns from a trained LSTM network to show how LSTM works. The authors provided an additive decomposition of the LSTM cell, which suggests a natural definition of the "importance score" of a input term to the whole sequence.
+
+While this score can be used to visualize the network, it can also be used to find the rule-based patterns that determine the final output. The authors perform experiments to extract rule patterns from the network to build a pattern matcing classifier. This experiment showed that the rules are really main part of the information that LSTM learned.
