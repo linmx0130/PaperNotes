@@ -78,3 +78,14 @@ At the same time they also provided a combinator library for neural networks bas
 This paper proposed a method to exploit rule patterns from a trained LSTM network to show how LSTM works. The authors provided an additive decomposition of the LSTM cell, which suggests a natural definition of the "importance score" of a input term to the whole sequence.
 
 While this score can be used to visualize the network, it can also be used to find the rule-based patterns that determine the final output. The authors perform experiments to extract rule patterns from the network to build a pattern matcing classifier. This experiment showed that the rules are really main part of the information that LSTM learned.
+
+### Incremental Network Quantization: Twoard Lossless CNNs with Low-Precision Weights
+* Authors: Aojun Zhou, Anbang Yao, Yiwen Guo, Lin Xu, Yurong Chen
+* Index: ICLR 2017, arXiv 1702.03044
+* Reading date: 14/02/2017
+* Categires: Network Compression, Machine Learning
+* Tag: Network compression
+
+While deep learning models contains a large amount of parameters, they are difficult to use in mobile devices or embedding systems. This paper proposed Incremental Network Quantization, which is able to convert a pretrained model into low-bit representation with better performence.
+
+In order to utilize specific hardware or FPGA, the authors decide to quantize the float point numbers into the power of 2. With a incremental quantization strategy, the network will be partially retrained after being partially quantized. The experiments showed that this method is able to produce higher performence models with rather low precision of parameters compared to full-presicion models. The compression ratio is more than 50 times. 
