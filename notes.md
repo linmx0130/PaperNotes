@@ -83,9 +83,20 @@ While this score can be used to visualize the network, it can also be used to fi
 * Authors: Aojun Zhou, Anbang Yao, Yiwen Guo, Lin Xu, Yurong Chen
 * Index: ICLR 2017, arXiv 1702.03044
 * Reading date: 14/02/2017
-* Categires: Network Compression, Machine Learning
+* Categoires: Network Compression, Machine Learning
 * Tag: Network compression
 
 While deep learning models contains a large amount of parameters, they are difficult to use in mobile devices or embedding systems. This paper proposed Incremental Network Quantization, which is able to convert a pretrained model into low-bit representation with better performence.
 
-In order to utilize specific hardware or FPGA, the authors decide to quantize the float point numbers into the power of 2. With a incremental quantization strategy, the network will be partially retrained after being partially quantized. The experiments showed that this method is able to produce higher performence models with rather low precision of parameters compared to full-presicion models. The compression ratio is more than 50 times. 
+In order to utilize specific hardware or FPGA, the authors decide to quantize the float point numbers into the power of 2. With a incremental quantization strategy, the network will be partially retrained after being partially quantized. The experiments showed that this method is able to produce higher performence models with rather low precision of parameters compared to full-presicion models. The compression ratio is more than 50 times.
+
+### Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized models
+* Authors: Sergey Ioffe
+* Index: arXiv 1702.03275
+* Reading date: 15/02/2017
+* Categories: Deep Learning, Machine Learning
+* Tag: Batch normalization.
+
+Batch normalization is a successful trick in training deep neural network. However, it makes an assumption that samples in each minibatch is independent, which does not hold in practice. When the batch size is small, batchnorm would even harm the network. This paper proposed Batch Renormalization to overcome this problem.
+
+By introducing the difference parameters between minibatch statistics and moving averages, batch renormalization overcomes the problem led by the incoherent in the training and inference of batch norm. The experiments showed that Batch Renormalization is helpful to improve the network with small-size minibatches and non-i.i.d. minibatches.
