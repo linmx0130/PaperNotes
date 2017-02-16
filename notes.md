@@ -1,3 +1,14 @@
+### Frustratingly Short Attention Spans in Neural Language Modeling
+* Authors: Michal Daniluk, Tim Rocktaschel, Johannes Welbl, Sebastian Riedel
+* Index: ICLR 2017, arXiv 1702.04521
+* Reading date: 16/02/2017
+* Categoires: Natural Language Processing, Machine Learning
+* Tag: Attention mechanism, Language model
+
+This paper introduce key-value-predict attention as an extension of attention mechanism in RNN language model. By spliting the hidden vector into three different part for three different functions, their attention argumented neural language model achieved a great success.
+
+Their experiments show that the neural language models  utilized a memory of only the most recent history and failed to exploit long-range dependencies. It seems that in language modeling task, it is too difficult to utlized long-range information.
+
 ### Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized models
 * Authors: Sergey Ioffe
 * Index: arXiv 1702.03275
@@ -71,9 +82,9 @@ While maintaining the advantages of fully convolutional networks, instance-sensi
 * Categories: Generative Models, Machine Learning
 * Tag: Generative adversarial networks, Representation learning
 
-This work proposed an architecture guidelines for stable Deep Convolutional GANs based on experiments. They found that fractional-strided convolutions are always better for generator compared to pooling layers. And fully connected hidden layers should be removed.
+ This work proposed an architecture guidelines for stable Deep Convolutional GANs based on experiments. They found that fractional-strided convolutions are always better for generator compared to pooling layers. And fully connected hidden layers should be removed.
 
-They also tried to "walk" on the mainfold of the latent space and manipulate the generator representation. They found that on the faces dataset, it is possible to get representation of a concept by averaging some samples of the face images following this concept. The arithmetic operation on these vector is able to produce expecting latent representation. This experiment shows that GAN really learns a meaningful representation.
+ They also tried to "walk" on the mainfold of the latent space and manipulate the generator representation. They found that on the faces dataset, it is possible to get representation of a concept by averaging some samples of the face images following this concept. The arithmetic operation on these vector is able to produce expecting latent representation. This experiment shows that GAN really learns a meaningful representation.
 
 ### Fully Convolutional Networks for Semantic Segmentation
 * Authors: Jonathan Long, Evan Shelhamer, Trevor Darrell.
