@@ -35,7 +35,7 @@ This work proposed instance-sensitive fully convolutional network, which is an i
 
 While maintaining the advantages of fully convolutional networks, instance-sensitive FCN is able to distinguish different close instances of same category. Finally, the experiments on PASCAL VOC 2012 and MS COCO dataset shows that their models beat previous state-of-the-art models.
 
- ### Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+### Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
  * Authors: Alec Radford, Luke Metz, Soumith Chintala.
  * Index arXiv:1511.06434
  * Reading date: 06/02/2017
