@@ -1,3 +1,14 @@
+### Training Region-based Object Detectors with Online Hard Example Mining
+* Authors: Abhinav Shrivastava, Abhinav Gupta, Ross Grishick
+* Index: CVPR 2016, arXiv 1604.03540
+* Reading date: 19/02/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection
+
+This paper proposed to use Online Hard Example Mining(OHEM) to boost the performance of a region-based object detector. With the training of region-based object detectors, samples exposed to the RCNN become easier and easier to the detectors. The authros utilize a special bootstrap method to mine "hard examples".
+
+The experiments showed that OHEM is cost reasonable and improves state-of-the-art detectors surprisingly.
+
 ### Featrue Pyramid Networks for Object Detection
 * Authors: Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie
 * Index: arXiv 1612.03144
