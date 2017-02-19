@@ -1,3 +1,14 @@
+### Featrue Pyramid Networks for Object Detection
+* Authors: Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie
+* Index: arXiv 1612.03144
+* Reading date: 18/02/2017
+* Categories: Computer Vision
+* Tag: Object detection, Convolutional networks
+
+This paper proposed feature pyramid networks, which combine ideas of hand-engineered features and neural networks. Tasks like object detection and semantic segmentation requires high-resolution features, which cannot be satisfied with features from the top convolutional networks. So the authors proposed to gain higher resolution features by adding top-down pathway with lateral connections and upsampling. It is natural to perform such operations in fully convolutional architectures like residual networks.
+
+Their experiments with Fast/Faster RCNN and segmentation proposals show that the proposed method is a general way to improve existing detection and segmentation models based on convolutional networks.
+
 ### Frustratingly Short Attention Spans in Neural Language Modeling
 * Authors: Michal Daniluk, Tim Rocktaschel, Johannes Welbl, Sebastian Riedel
 * Index: ICLR 2017, arXiv 1702.04521
