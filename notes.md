@@ -1,3 +1,14 @@
+## Learning to Detect Human-Object Interactions
+* Authors: Yu-Wei Chao, Yunfan Liu, Xieyang Liu, Huayi Zeng, Jia Deng
+* Index: arXiv 1702.05448
+* Reading date: 20/02/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection, Action detection
+
+This paper introduce a new dataset on detecting human-object interactions with a model based on object detectors. Since the dataset provides the bounding boxes of human and objects, it is possible to detect interactions based on the results of object detections.
+
+They also proposed to construct interaction patterns for human-object pair to improve the performance of interaction detections
+
 ### Training Region-based Object Detectors with Online Hard Example Mining
 * Authors: Abhinav Shrivastava, Abhinav Gupta, Ross Grishick
 * Index: CVPR 2016, arXiv 1604.03540
