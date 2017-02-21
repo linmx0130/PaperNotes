@@ -1,3 +1,14 @@
+### Person Search with Natural Language Description
+* Authors: Shuang Li, Tong Xiao, Hongsheng Li, Bolei Zhou, Dayu Yue, Xiaogang Wang
+* Index: arXiv: 1702.05729
+* Reading date: 22/02/2017
+* Categories: Computer Vision, Natural Language Processing, Information Retrieval
+* Tag: Person retrieval
+
+This paper proposed a new task that searching persons in large-scale image databases with natural language description. They built a large-scale benchmark for this task. The experiments on humans show that human is able to get better retrieval results with natural language rather than attributes.
+
+In order to solve this task, the authors also proposed an innovative Recurrent Neural Network with Gated Neural Attention mechanism, which combines the state-of-the-art models in NLP and CV areas.
+
 ### Optimization as a Model for Few-Shot Learning
 * Authors: Sachin Ravi, Hugo Larochelle
 * Index: ICLR 2017
