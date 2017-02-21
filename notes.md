@@ -1,4 +1,15 @@
-## Learning to Detect Human-Object Interactions
+### Optimization as a Model for Few-Shot Learning
+* Authors: Sachin Ravi, Hugo Larochelle
+* Index: ICLR 2017
+* Reading date: 21/02/2017
+* Categories: Few-Shot Learning, Machine Learning
+* Tag: Meta Learning
+
+This paper is based on *Learn to learn by gradient descent by gradient descent(arXiv 1606.04474)*. The authros extends the methods to meta learning, which achieves a great success in few-shot learning.
+
+By finding that the rule of LSTM cell unit is similar to the update rules of gradient descending algorithms, they proposed to use a LSTM to learn the procedure of "learning from few instances". With careful parameter sharing and preprocessing, the meta-learner is able to treat the parameters of the learner as its cell. The experiments on Mini-Imagenet shows that their method is able to outperform previous state-of-the-art few-shot learning methods.
+
+### Learning to Detect Human-Object Interactions
 * Authors: Yu-Wei Chao, Yunfan Liu, Xieyang Liu, Huayi Zeng, Jia Deng
 * Index: arXiv 1702.05448
 * Reading date: 20/02/2017
