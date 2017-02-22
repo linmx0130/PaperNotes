@@ -1,6 +1,17 @@
+### PixelNet: Representation of the pixels, by the pixels, and for the pixels.
+* Authors: Aayush Bansal, Xinlei Chen, Bryan Russell, Abhinav Gupta, Deva Ramanan
+* Index: arXiv 1702.06506
+* Reading date: 22/02/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Fully convolutional networks
+
+The authros demonstrate that stratified sampling of pixels is able to strengthen existing fully convoluional architectures on several different pixel-level tasks.  With hypercolumn in PixelNet, it is possible to perform sparse predictions, which accelerate the training speed.
+
+The experiments on semantic segmentation, surface normal estimation and edge detection shows that the proposed method is general enough for different tasks.
+
 ### Person Search with Natural Language Description
 * Authors: Shuang Li, Tong Xiao, Hongsheng Li, Bolei Zhou, Dayu Yue, Xiaogang Wang
-* Index: arXiv: 1702.05729
+* Index: arXiv 1702.05729
 * Reading date: 22/02/2017
 * Categories: Computer Vision, Natural Language Processing, Information Retrieval
 * Tag: Person retrieval
