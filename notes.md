@@ -1,3 +1,14 @@
+### Snapshot Ensembles: Train 1, get M for free
+* Authors: Gao Huang, Yixuan Li, Geoff Pleiss, Zhuang Liu, John E. Hopcroft, Kilian Q. Weinberger
+* Index: ICLR 2017
+* Reading date: 23/02/2017
+* Categories: Ensemble Models, Machine Learning
+* Tags: Cyclic LR schedule
+
+This paper introduce a novel model ensembling method based on cyclic learning rate scheduling. Cyclic learning rate is able to help the deep networks escape from a local minima and fall into another "better" local minia. The authors proposed to use the ensemble of the snapshots of all models in the local minima.
+
+Their experiments show that without increasing training cost, snapshot ensembling is able to get a high performance ensamble model. They also shows that the diversity of parameters in snapshots is the key of this successful method.
+
 ### PixelNet: Representation of the pixels, by the pixels, and for the pixels.
 * Authors: Aayush Bansal, Xinlei Chen, Bryan Russell, Abhinav Gupta, Deva Ramanan
 * Index: arXiv 1702.06506
