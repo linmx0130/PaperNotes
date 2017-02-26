@@ -1,3 +1,14 @@
+### Learning Chained Deep Features and Classifiers for Cascade in Object Detection
+* Authors: Wanli Ouyang, Ku Wang, Xin Zhou, Xiaogang Wang
+* Index: arXiv 1702.07054
+* Reading date: 25/02/2017
+* Categories: Computer Vision, Machine Leanring
+* Tags: Object Detection
+
+This paper introduce a novel method to build cascade model for object detection. The key of their methods contains two points: 1. Features in different stages should be diverse, which can be achieved by padding context into ROI. 2. Using the result of previous stage as a prior, which make the later stages focus on the failure cases of previous stage. This method seems a special way of boosting.
+
+The experiments showed that their methods improves the model significantly.
+
 ### Snapshot Ensembles: Train 1, get M for free
 * Authors: Gao Huang, Yixuan Li, Geoff Pleiss, Zhuang Liu, John E. Hopcroft, Kilian Q. Weinberger
 * Index: ICLR 2017
