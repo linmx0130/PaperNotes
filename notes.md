@@ -1,8 +1,19 @@
+### ViP-CNN: A Visual Phrase Reasoning Convolutional Neural Network for Visual Relationship Detection
+* Authors: Yikang Li, Wanli Ouyang, Xiaogang Wang
+* Index: arXiv 1702.07191
+* Reading date: 27/02/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Visual relationship, Object detection
+
+This paper introduce ViP-CNN to deal with the visual relationship detection. Compared to previous methods that performs object detection as first stage, this work produce triplet proposal that contains the subject, the object and the whole phrase at the same time. With these proposals, the modules later are able to perform information passing ("reasoning structure" in the paper) inside the network.
+
+Their experiments show the ability of this structure outperforms previous state-of-the-art models. The idea that reduce the amount of stages to gain more interaction information is the key insight of this paper.
+
 ### Learning Chained Deep Features and Classifiers for Cascade in Object Detection
 * Authors: Wanli Ouyang, Ku Wang, Xin Zhou, Xiaogang Wang
 * Index: arXiv 1702.07054
 * Reading date: 25/02/2017
-* Categories: Computer Vision, Machine Leanring
+* Categories: Computer Vision, Machine Learning
 * Tags: Object Detection
 
 This paper introduce a novel method to build cascade model for object detection. The key of their methods contains two points: 1. Features in different stages should be diverse, which can be achieved by padding context into ROI. 2. Using the result of previous stage as a prior, which make the later stages focus on the failure cases of previous stage. This method seems a special way of boosting.
