@@ -1,3 +1,14 @@
+### Understanding Deep Learning Requires Rethinking Generalization
+* Authors: Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
+* Index: ICLR 2017
+* Reading date: 28/02/2017
+* Categories: Machine Learning
+* Tag: Deep learning theory
+
+This paper poses a lot of new question about existing theory on deep learning and machine learning. Their experiments show two important facts: 1. The neural network *can* learn by remembering all training samples. 2. The explicit regularization cannot explain the generalization ability of deep neural networks.
+
+The authors proposed that stochastic gradient descending is able to converge to a model with small norm in most time. It is natural to assume that SGD provided an implicit regularization. More research should be taken to help us to understand the generalization ability of neural networks.
+
 ### ViP-CNN: A Visual Phrase Reasoning Convolutional Neural Network for Visual Relationship Detection
 * Authors: Yikang Li, Wanli Ouyang, Xiaogang Wang
 * Index: arXiv 1702.07191
