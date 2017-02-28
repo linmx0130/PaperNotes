@@ -1,3 +1,14 @@
+### VisualBackProp: visualizing CNNs for autonomous driving
+* Authors: Mariusz Bojarski, Anna Choromanska, Krzysztof Choromanski, Bernhard Firner, Larry Jackel, Urs Muller, Karol Zieba.
+* Index: arXiv 1611.05418
+* Reading date: 28/02/2017
+* Categories: Machine Learning
+* Tag: Network visualizing
+
+This paper introduce a simple but novel method to visualize the decision reason of a convolutional neural network. The method simply take the mean value of all channels in the output of a layer as the visualization mask of this layer. The deeper and smaller visualization mask is then scaled up to suit the shape of previous layer. The scaled up visualization mask is used to multiply the feature map of previous layer pointwise.
+
+The experiments show that their method is accurate and fast enough for understanding and debugging the deep neural networks. The theoretical analysis of the output this method is able to identify the contribution to the final predictions of input pixels.
+
 ### Understanding Deep Learning Requires Rethinking Generalization
 * Authors: Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
 * Index: ICLR 2017
