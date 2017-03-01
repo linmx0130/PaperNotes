@@ -1,3 +1,14 @@
+### Understanding Convolution for Semantic Segmentation
+* Authors: Panqu Wang, Pengfei Chen, Ye Yuan, Ding Liu, Zehua Huang, Xiaodi Hou, Carrison Cottrell
+* Index: arXiv 1702.08502
+* Reading date: 01/03/2017
+* Categoires: Computer Vision
+* Tag: Semantic Segmentation
+
+This paper proposed two tools to improve convolution-based semantic segmentation systems: dense upsampling convolution and hybrid dilated convolution.
+
+The key idea of dense upsampling convolution is to add more parameters for predicting more pixels with the final feature maps. While hybrid dilated convolution is trying to solve the problem that dilated convolution may lose some features. It also increase the respective field of the feature maps. The experiments on Cityscapes, KITTI and Pascal VOC2012 show that these methods are useful.
+
 ### VisualBackProp: visualizing CNNs for autonomous driving
 * Authors: Mariusz Bojarski, Anna Choromanska, Krzysztof Choromanski, Bernhard Firner, Larry Jackel, Urs Muller, Karol Zieba.
 * Index: arXiv 1611.05418
