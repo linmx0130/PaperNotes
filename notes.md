@@ -1,3 +1,25 @@
+### Beyond Skip Connections: Top-Down Modulation for Object Detection
+* Authors: Abhinav Shrivastava, Rahul Sukthankar, Jitendra Malik, Abhinav Gupta
+* Index: arXiv 1612.06851
+* Reading date: 01/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection, Convolutional neural networks
+
+This paper proposed top-down modulation that connects features from down-sampling convolution and up-sampling convolution layers. This network provided a simple and natural way to produce better high resolution feature maps.
+
+The experiments show that this method is useful in object detection task. The nice property of this method is that it could be used in any tasks that requires good high resolution feature maps.
+
+### Progressively Diffused Networks for Semantic Image Segmentation
+* Ruimao Zhang, Wei Yang, Zhangli Peng, Xiaogang Wang, Liang Lin
+* Index: arXiv 1702.05839
+* Reading date: 01/03/2017
+* Categoires: Computer Vision, Machine Learning
+* Tag: Semantic segmentation
+
+This paper proposed Progressively Diffused Network, which is able to diffuse information in the locally features in the convolutional feature maps. After diffusing information, the feature maps contain more global information while maintaining spatial information.
+
+In this work, the diffusing layer is implemented by convolutional LSTM. The experiments showed that this method may be able to improve existing semantic segmentation models.  
+
 ### Understanding Convolution for Semantic Segmentation
 * Authors: Panqu Wang, Pengfei Chen, Ye Yuan, Ding Liu, Zehua Huang, Xiaodi Hou, Carrison Cottrell
 * Index: arXiv 1702.08502
