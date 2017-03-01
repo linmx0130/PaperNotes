@@ -1,3 +1,14 @@
+### Spatially Adaptive Computation Time for Residual Networks
+* Authors: Michael Figurnov, MAxwell D. Collins, Yukun Zhu, Li Zhang, Jonathan Huang, Dmitry Vetrov, Ruslan Salakhutdinov
+* Index: arXiv 1612.02297
+* Reading date: 02/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Adaptive computation time, Attention mechanism
+
+Inspired by adaptive computation time mechanism in recurrent neural networks, the authors proposed adaptive computation time and spatially adaptive computation time for deep residual networks. The network produce a halting score at the end of each residual block. When the cumulative halting score is large enough, the computation is stopped.
+
+The novelty of this work is that the authors proposed a ponder score which is a diffierentiable upper bound on the number of evaluated units N. By minimize the ponder score, the network is able to find a suitable time to stop. They also proposed to use convolution to perform spatially adaptive computation time. The experiments on two large-scale object detection show that this method get a rather good trade-off between the computation time and the performance. It could be seen as a special attention mechanism too, while the halting score is the value of the feature maps. The weighted sum of feature maps is used to produce final result.
+
 ### Beyond Skip Connections: Top-Down Modulation for Object Detection
 * Authors: Abhinav Shrivastava, Rahul Sukthankar, Jitendra Malik, Abhinav Gupta
 * Index: arXiv 1612.06851
