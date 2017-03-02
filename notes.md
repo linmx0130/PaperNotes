@@ -1,3 +1,14 @@
+### Improving Object Detection with Region Similarity Learning
+* Authors: Feng Gao, Yihang Lou, Yan Bai, Shiqi Wang, Tiejun Huang ,Ling-Yu Duan
+* Index: arXiv 1702.00234
+* Reading date: 02/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection, Embedding learning
+
+This paper proposed triplet embedding to incorporate the constraint of relative similarity distances between positives and negatives into region-based detector learning. By carefully sampling hard negatives, the triplet embedding distances work as a regularizer in the loss function.
+
+The experiments on VOC07+12 shows that with this method the detector gain a lot improvement in performance.
+
 ### Spatially Adaptive Computation Time for Residual Networks
 * Authors: Michael Figurnov, MAxwell D. Collins, Yukun Zhu, Li Zhang, Jonathan Huang, Dmitry Vetrov, Ruslan Salakhutdinov
 * Index: arXiv 1612.02297
