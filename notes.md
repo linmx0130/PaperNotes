@@ -1,3 +1,14 @@
+### The Statistical Recurrent Unit
+* Authors: Junier B. Oliva, Barnabas Poczos, Jeff Schneider
+* Index: arXiv 1703.00381
+* Reading date: 02/03/2017
+* Categories: Recurrent Neural Network, Machine Learning
+* Tag: Moving average
+
+This paper proposed a gate-free recurrent unit based on the moving average of statistics of sequence data. It is inspired by mean map embeddings. The value of this work is that it provided a new view of recurrent neural network and gate mechanism.
+
+The experiments on synthetic data shows that SRU outperforms LSTM and GRU a lot. While the experiments on different real temporal data shows that SRU is really good at capturing long term dependencies.
+
 ### Improving Object Detection with Region Similarity Learning
 * Authors: Feng Gao, Yihang Lou, Yan Bai, Shiqi Wang, Tiejun Huang ,Ling-Yu Duan
 * Index: arXiv 1702.00234
