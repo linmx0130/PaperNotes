@@ -1,3 +1,13 @@
+### Stacked Hourglass Networks for Human Pose estimation
+* Authors: Alejandro Newell, Kaiyu Yang and Jia Deng
+* Index: ECCV 2016, arXiv 1603.06937
+* Reading date: 03/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Pose estimation, Hourglass network
+
+This paper introduce to use a new network architecture, stacked hourglass networks, for human pose estimation. This network is built with skip connection between the down-sampling features and the up-sampling features whose resolution is same. It provided a method to produce high-resolution and high-level features.
+
+Based on hourglass network, the authors proposed intermediate supervision in the stacked hourglass network.The experiments show that stacked "short" hourglass networks with intermediate supervision is able to achieve the best performance. To conclude, the most important contribution of this paper is the stacked hourglass network architecture.
 ### The Statistical Recurrent Unit
 * Authors: Junier B. Oliva, Barnabas Poczos, Jeff Schneider
 * Index: arXiv 1703.00381
@@ -46,7 +56,7 @@ The experiments show that this method is useful in object detection task. The ni
 * Ruimao Zhang, Wei Yang, Zhangli Peng, Xiaogang Wang, Liang Lin
 * Index: arXiv 1702.05839
 * Reading date: 01/03/2017
-* Categoires: Computer Vision, Machine Learning
+* Categories: Computer Vision, Machine Learning
 * Tag: Semantic segmentation
 
 This paper proposed Progressively Diffused Network, which is able to diffuse information in the locally features in the convolutional feature maps. After diffusing information, the feature maps contain more global information while maintaining spatial information.
@@ -57,7 +67,7 @@ In this work, the diffusing layer is implemented by convolutional LSTM. The expe
 * Authors: Panqu Wang, Pengfei Chen, Ye Yuan, Ding Liu, Zehua Huang, Xiaodi Hou, Carrison Cottrell
 * Index: arXiv 1702.08502
 * Reading date: 01/03/2017
-* Categoires: Computer Vision
+* Categories: Computer Vision
 * Tag: Semantic Segmentation
 
 This paper proposed two tools to improve convolution-based semantic segmentation systems: dense upsampling convolution and hybrid dilated convolution.
@@ -189,7 +199,7 @@ Their experiments with Fast/Faster RCNN and segmentation proposals show that the
 * Authors: Michal Daniluk, Tim Rocktaschel, Johannes Welbl, Sebastian Riedel
 * Index: ICLR 2017, arXiv 1702.04521
 * Reading date: 16/02/2017
-* Categoires: Natural Language Processing, Machine Learning
+* Categories: Natural Language Processing, Machine Learning
 * Tag: Attention mechanism, Language model
 
 This paper introduce key-value-predict attention as an extension of attention mechanism in RNN language model. By spliting the hidden vector into three different part for three different functions, their attention argumented neural language model achieved a great success.
@@ -211,7 +221,7 @@ By introducing the difference parameters between minibatch statistics and moving
 * Authors: Aojun Zhou, Anbang Yao, Yiwen Guo, Lin Xu, Yurong Chen
 * Index: ICLR 2017, arXiv 1702.03044
 * Reading date: 14/02/2017
-* Categoires: Network Compression, Machine Learning
+* Categories: Network Compression, Machine Learning
 * Tag: Network compression
 
 While deep learning models contains a large amount of parameters, they are difficult to use in mobile devices or embedding systems. This paper proposed Incremental Network Quantization, which is able to convert a pretrained model into low-bit representation with better performence.
