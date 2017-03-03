@@ -1,3 +1,12 @@
+### You Only Look Once: Unified, Real-Time Object Detection
+* Authors: Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi
+* Index: CVPR 2016, arXiv 1506.02640
+* Reading date: 03/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection
+
+This paper proposed YOLO object detector, a region-based object detector that only processes the image once. This object detector is able to achieve competitive  performance with much higher speed that support real-time detection. The model produces region proposal with a region proposal network and builds a class probability map at the same time. The class probability map is used to tell what object is in the region proposal, which is produced by a fully convolutional network. The experiments show that this detector is the state-of-the-art real-time object detector.
+
 ### Stacked Hourglass Networks for Human Pose estimation
 * Authors: Alejandro Newell, Kaiyu Yang and Jia Deng
 * Index: ECCV 2016, arXiv 1603.06937
