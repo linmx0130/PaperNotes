@@ -1,3 +1,12 @@
+### How to Escape Saddle Points Efficiently
+* Authros: Chi Jin, Rong Ge, Praneeth Netrapalli, Sham M. Kakade, Michael I. Jordan
+* Index: arXiv 1703.00887
+* Reading date: 06/03/2017
+* Categories: Machine Learning, Optimization
+* Tag: Non-convex optimization
+
+This paper presents a simple algorithm, Perturbed Gradient Descent, that is able to escape saddle point based on the mere information of gradients. Since the algorithm is a modified version of SGD, it is possible to be used in training deep neural networks. The basic idea of this algorithm is that when the gradient is too small, a random noise is added into the parameters. The authors showed that with proper hyperparameters, the algorithm is able to escape saddle points in limited steps with nearly no extra resources.
+
 ### You Only Look Once: Unified, Real-Time Object Detection
 * Authors: Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi
 * Index: CVPR 2016, arXiv 1506.02640
