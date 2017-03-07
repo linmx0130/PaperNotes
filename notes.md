@@ -1,3 +1,14 @@
+### Axiomatic Attribution for Deep Networks
+* Authors: Mukund Sundararajan, Ankur Taly, Qiqi Yan
+* Index: arXiv 1703.01365
+* Reading date: 07/03/2017
+* Categories: Machine Learning
+* Tag: Deep learning visualization
+
+This paper proposed two axioms of attribution of predictions of deep neural networks, i.e. figuring out the importance of all inputs to the final predictions. The axioms are sensitivity and implementation invariance. With these two properties, they proposed Integrated Gradients, the first network attribution method that satisfies the two axioms. They prove that the method is solid in theory.
+
+In the experiment part, the authors performed 5 different experiments on 3 different type of task. The experiments cover computer vision, natural language processing and chemistry model. The experiments showed that the proposed method is a better network visualization tools compared to previous methods in practice.
+
 ### A Structure Self-attentive Sentence Embedding
 * Authors: Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, Yoshua Bengio
 * Index: ICLR 2017
