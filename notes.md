@@ -1,3 +1,14 @@
+### A Structure Self-attentive Sentence Embedding
+* Authors: Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, Yoshua Bengio
+* Index: ICLR 2017
+* Reading date: 07/03/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Representation learning, Sentence embedding
+
+This paper proposed a framework to learn structured sentence embedding by self attention mechanism. The embedding of a sentence is a matrix in fact. Different rows of the matrix is a "channel" of the information. The authors proposed a special penalization term to encourage different attention vectors to focus different aspect of the input information, which increase the diversity of the attention vectors.
+
+This method also provided a fantastic way to visualize which part of sentence is more important in the final result. The experiments on the Age dataset, the Yelp dataset and the Stanford Natural Language Inference Corpus shows that this sentence embedding is able to achieve state-of-the-art performance in different natural language processing task with a general framework.
+
 ### How to Escape Saddle Points Efficiently
 * Authros: Chi Jin, Rong Ge, Praneeth Netrapalli, Sham M. Kakade, Michael I. Jordan
 * Index: arXiv 1703.00887
