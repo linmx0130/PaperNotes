@@ -1,3 +1,14 @@
+### Tree-Structured Reinforcement Learning for Sequential Object Localization
+* Authors: Zequn Jie, Xiaodan Liang, Jiashi Feng, Xiaojie Jin, Wen Feng Lu, Shuicheng Yan
+* Index: NIPS 2016, arXiv 1703.02710
+* Reading date: 09/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Reinforcement learning
+
+This paper proposed a better region proposal model based on reinforcement learning. The procedure of region proposal is treated as a sequential decision process. The model is optimized to generate better region proposals with two type of operations on the existing proposals. The also proposed to perform tree based search to explore more operations. The reward function is carefully designed to encourage the model to generate better region proposals as soon as possible.
+
+The experiments shows that their region proposal model beats existing state-of-the-art models and gains comparable object detection performance with R-CNN with less region proposals.
+
 ### Axiomatic Attribution for Deep Networks
 * Authors: Mukund Sundararajan, Ankur Taly, Qiqi Yan
 * Index: arXiv 1703.01365
