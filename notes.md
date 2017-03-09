@@ -1,3 +1,14 @@
+### Learning from Noisy Labels with Distillation
+* Authors: Yuncheng Li, Jianchao Yang, Yale Song, Liangliang Cao, Jiebo Luo, Jia Li
+* Index: arXiv 1703.02391
+* Reading date: 09/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Noisy data learning, Distillation
+
+This paper shows the possibility that learn from a large noisy dataset with a small cleaned dataset. While the noisy dataset is easier to get, this method is quite useful in dealing with current large-scale video dataset. While the rationale of this method is not so clear, the experiments show that this method outperforms baseline and some regularization methods.
+
+The key to this method is the hyperparameter that balances the information from noisy data and existing good classifier trained on a clean dataset. They also proposed to gain more information from existing knowledge graph. However, the experiments show that it does not improve the model significantly.
+
 ### Tree-Structured Reinforcement Learning for Sequential Object Localization
 * Authors: Zequn Jie, Xiaodan Liang, Jiashi Feng, Xiaojie Jin, Wen Feng Lu, Shuicheng Yan
 * Index: NIPS 2016, arXiv 1703.02710
