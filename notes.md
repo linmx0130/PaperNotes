@@ -1,3 +1,14 @@
+### Semantic Object Parsing with Graph LSTM
+* Authros: Xiaodan Liang, Xiaohui Shen, Jiashi Feng, Liang Lin, Shuicheng Yan
+* Index: ECCV 2016, arXiv 1603.07063
+* Reading date: 10/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Semantic parsing
+
+This work proposed Graph LSTM, which is able to replace CRF in existing computer vision task. The information propagation is based on the operations of LSTM. Compared to existing LSTM variants, Graph LSTM is more general and more suitable for semantic parsing task. The adaptive forget gate used in this model which make the nodes pay different attention on different neighbors is a new idea for LSTM design.
+
+The experiments are performed on 4 challenging semantic parsing task, and show that Graph LSTM-based outperforms previous models significantly in all tasks.
+
 ### Learning from Noisy Labels with Distillation
 * Authors: Yuncheng Li, Jianchao Yang, Yale Song, Liangliang Cao, Jiebo Luo, Jia Li
 * Index: arXiv 1703.02391
