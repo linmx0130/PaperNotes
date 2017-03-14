@@ -1,3 +1,14 @@
+### Deep and Hierarchical Implicit Models
+* Authors: Dustin Tran, Rajesh Ranganath, David M. Blei
+* Index: arXiv 1702.08896
+* Reading date: 14/03/2017
+* Categoires: Machine Learning
+* Tag: Implicit probabilistic models
+
+This paper developed deep implicit models and hierarchical models. These models are two classes of Bayesian hierarchical models which only assume a process that generate samples. Variational inference is used to optimize the models. However, the local densities $p(x_n, z_n| beta)$ and its variational approximation are bot intractable if the assumption of the latent models are removed, which poses a challenge to build the model. The authors proposed a ratio estimation for the ratio of log-likelihoods of two intractable densities, which is inspired by GAN.
+
+The experiments show that this framework is expressive and expends Bayesian analysis to a lot of new ares. 
+
 ### Deep Value Networks Learn to Evaluate and Iteratively Refine Structured Outputs
 * Authors: Michael Gygli, Mohammad Norouzi, Anelia Angelova
 * Index: arXiv 1703.04363
@@ -7,7 +18,7 @@
 
 This paper proposed a new framework for structured learning problems. The authors proposed to use a network to learn the evaluation criterion directly, which is inspired by the value network in deep reinforcement learning. In the inference part, a gradient descending algorithm is used to find the output that minimizes the output of value network. In the training part, the value network is trained with a special loss function and some adversarial tuples.
 
-The experiments show that this framework is able to achieve or outperforms previous state-of-the-art methods on different structured learning tasks covering multi-label classification and image segmentation. 
+The experiments show that this framework is able to achieve or outperforms previous state-of-the-art methods on different structured learning tasks covering multi-label classification and image segmentation.
 
 ### Semantic Object Parsing with Graph LSTM
 * Authros: Xiaodan Liang, Xiaohui Shen, Jiashi Feng, Liang Lin, Shuicheng Yan
