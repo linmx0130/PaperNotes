@@ -1,3 +1,14 @@
+### Deep Value Networks Learn to Evaluate and Iteratively Refine Structured Outputs
+* Authors: Michael Gygli, Mohammad Norouzi, Anelia Angelova
+* Index: arXiv 1703.04363
+* Reading date: 14/03/2017
+* Categories: Machine Learning
+* Tag: Structured learning
+
+This paper proposed a new framework for structured learning problems. The authors proposed to use a network to learn the evaluation criterion directly, which is inspired by the value network in deep reinforcement learning. In the inference part, a gradient descending algorithm is used to find the output that minimizes the output of value network. In the training part, the value network is trained with a special loss function and some adversarial tuples.
+
+The experiments show that this framework is able to achieve or outperforms previous state-of-the-art methods on different structured learning tasks covering multi-label classification and image segmentation. 
+
 ### Semantic Object Parsing with Graph LSTM
 * Authros: Xiaodan Liang, Xiaohui Shen, Jiashi Feng, Liang Lin, Shuicheng Yan
 * Index: ECCV 2016, arXiv 1603.07063
