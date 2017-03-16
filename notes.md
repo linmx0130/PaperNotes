@@ -1,3 +1,14 @@
+### Understanding Black-box Predictions via Influence Functions
+* Authors: Peng Wei Koh, Percy Liang
+* Index: arXiv 1703.04730
+* Reading date: 16/03/2017
+* Categories: Machine Learning
+* Tag: Understanding learning system
+
+This paper proposed an approximation method of influence functions to understand the behavior of a learning system by finding the influence of each training example. This method is able to find the outliers that changed the learning system behaviors, debug domain mismatch and so on. 
+
+The experiments showed that the HVP approximation is able to compute an accurate estimation of the influence functions. And as this method provided a tool to understand the learning system, a lot of experiments show that it is able to provide some explainations of the prediction of the neural networks.
+
 ### Deep and Hierarchical Implicit Models
 * Authors: Dustin Tran, Rajesh Ranganath, David M. Blei
 * Index: arXiv 1702.08896
@@ -58,7 +69,7 @@ The experiments shows that their region proposal model beats existing state-of-t
 * Index: arXiv 1703.01365
 * Reading date: 07/03/2017
 * Categories: Machine Learning
-* Tag: Deep learning visualization
+* Tag: Understanding learning system
 
 This paper proposed two axioms of attribution of predictions of deep neural networks, i.e. figuring out the importance of all inputs to the final predictions. The axioms are sensitivity and implementation invariance. With these two properties, they proposed Integrated Gradients, the first network attribution method that satisfies the two axioms. They prove that the method is solid in theory.
 
