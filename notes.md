@@ -1,3 +1,14 @@
+### DeViSE: A Deep Visual-Semantic Embedding Model
+* Authors: Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Mar'Aurelio Ranzato, Tomas Mikolov
+* Index: NIPS 2013
+* Reading date: 20/03/2017
+* Categories: Computer Vision, Natural Language Processing, Machine Learning
+* Tag: Word embedding, Zero-shot Learning
+
+This paper presented a deep visual-semantic embedding model that is able to identify visual objects using labeled images and unannotated text. The model is based on state-of-the-art image classification model and word embedding model. A new hinge rank loss is proposed to incorporate information from both sources.  
+
+The experiments show that this model is able to achieve the performance of state-of-the-art softmax baseline, while be able to generalize to unseen labels. This paper shows the possibility to utilize language prior to solve zero-shot learning problems.
+
 ### Deep and Hierarchical Implicit Models
 * Authors: Dustin Tran, Rajesh Ranganath, David M. Blei
 * Index: arXiv 1702.08896
@@ -7,7 +18,7 @@
 
 This paper developed deep implicit models and hierarchical models. These models are two classes of Bayesian hierarchical models which only assume a process that generate samples. Variational inference is used to optimize the models. However, the local densities $p(x_n, z_n| beta)$ and its variational approximation are bot intractable if the assumption of the latent models are removed, which poses a challenge to build the model. The authors proposed a ratio estimation for the ratio of log-likelihoods of two intractable densities, which is inspired by GAN.
 
-The experiments show that this framework is expressive and expends Bayesian analysis to a lot of new ares. 
+The experiments show that this framework is expressive and expends Bayesian analysis to a lot of new ares.
 
 ### Deep Value Networks Learn to Evaluate and Iteratively Refine Structured Outputs
 * Authors: Michael Gygli, Mohammad Norouzi, Anelia Angelova
