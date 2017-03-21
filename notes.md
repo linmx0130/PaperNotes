@@ -1,3 +1,14 @@
+### Mask R-CNN
+* Authors: Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick
+* Index: arXiv 1703.06870
+* Reading date: 21/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Instance segmentation, Object detection
+
+This work presented Mask R-CNN, a R-CNN variants that is able to output instance segmentation. The key of this work is RoIAlign, which is a quantization-free layer that faithfully preserves exact spatial locations compared to RoIPooling. RoIAlign is able to replace all RoIPooling in previous models. This architecture also decouples the mask and the class predictions.
+
+The experiments on COCO datasets is impressive. The single model achieves state-of-the-art performance in instance segmentation and object detection tasks. The model also gains a large improvements in human pose estimation task.
+
 ### DeViSE: A Deep Visual-Semantic Embedding Model
 * Authors: Andrea Frome, Greg S. Corrado, Jonathon Shlens, Samy Bengio, Jeffrey Dean, Mar'Aurelio Ranzato, Tomas Mikolov
 * Index: NIPS 2013
