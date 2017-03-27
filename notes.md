@@ -1,3 +1,14 @@
+### Linguistic Knowledge as Memory for Recurrent Neural Networks
+* Authors: Bhuwan Dhingra, Zhilin Yang, William W. Cohen, Ruslan Salakhutdinov
+* Index: arXiv 1703.02620
+* Reading date: 27/03/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Recurrent Neural Networks
+
+This paper presents MAGE-GRU, which is a model that is able to utilize linguistic knowledge provided by other tools to improve learning the long range dependencies in RNN. MAGE-GRU is an extension of GRU that is able to work on directed acyclic graph. By explicitly decomposing parameters for different edge types, the model is able to learn specific effects for different linguistic relation.
+
+The experiments on QA tasks based on Stanford NLP tools show that MAGE-GRU outperforms previous state-of-the-art QA systems impressively. Beside the huge improvements they have got on QA tasks, the framework is also a great contribution. 
+
 ### Mask R-CNN
 * Authors: Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick
 * Index: arXiv 1703.06870
@@ -27,7 +38,7 @@ The experiments show that this model is able to achieve the performance of state
 * Categories: Machine Learning
 * Tag: Understanding learning system
 
-This paper proposed an approximation method of influence functions to understand the behavior of a learning system by finding the influence of each training example. This method is able to find the outliers that changed the learning system behaviors, debug domain mismatch and so on. 
+This paper proposed an approximation method of influence functions to understand the behavior of a learning system by finding the influence of each training example. This method is able to find the outliers that changed the learning system behaviors, debug domain mismatch and so on.
 
 The experiments showed that the HVP approximation is able to compute an accurate estimation of the influence functions. And as this method provided a tool to understand the learning system, a lot of experiments show that it is able to provide some explainations of the prediction of the neural networks.
 
