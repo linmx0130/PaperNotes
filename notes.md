@@ -1,3 +1,14 @@
+### Evolution Strategies as a Scalable Alternative to Reinforcement Learning
+* Authors: Tim Sailmans, Jonathan Ho, Xi Chen, Ilya Sutskever
+* Index: arXiv 1703.03864
+* Reading dazte: 28/03/2017
+* Categories: Reinforcement Learning, Evolution Algorithms, Machine Learning
+* Tag: Gradient-free optimization
+
+This paper presents an scalable evolution strategies algorithm that is able to replace policy gradient methods for reinforcement learning. They found that virtual batch normalization is key to the success of evolution strategies. An antithetic sampler is used to reduce the variance of the perturbation. The evolution strategies with Gaussian distribution is in face a zero-order gradient estimation, which could produce an informative gradient estimation.
+
+The experiments show that their proposed method is able to achieve comparable result using only CPUs. The scalability is an attractive feature of this method. The experiments also show that gradient-free optimization is viable to solve reinforcement learning problems.
+
 ### Linguistic Knowledge as Memory for Recurrent Neural Networks
 * Authors: Bhuwan Dhingra, Zhilin Yang, William W. Cohen, Ruslan Salakhutdinov
 * Index: arXiv 1703.02620
@@ -7,7 +18,7 @@
 
 This paper presents MAGE-GRU, which is a model that is able to utilize linguistic knowledge provided by other tools to improve learning the long range dependencies in RNN. MAGE-GRU is an extension of GRU that is able to work on directed acyclic graph. By explicitly decomposing parameters for different edge types, the model is able to learn specific effects for different linguistic relation.
 
-The experiments on QA tasks based on Stanford NLP tools show that MAGE-GRU outperforms previous state-of-the-art QA systems impressively. Beside the huge improvements they have got on QA tasks, the framework is also a great contribution. 
+The experiments on QA tasks based on Stanford NLP tools show that MAGE-GRU outperforms previous state-of-the-art QA systems impressively. Beside the huge improvements they have got on QA tasks, the framework is also a great contribution.
 
 ### Mask R-CNN
 * Authors: Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick
