@@ -1,3 +1,14 @@
+### Objects as context for part detection
+* Authors: Abel Gonzalez-Garcia, Davide Modolo, Vittorio Ferrari
+* Index: arXiv 1703.09529
+* Reading date: 29/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection, Object part detection
+
+This paper addresses the problem of semantic part detection. By incorporating the information of object detection boxes, the model is able to refine part detection result. The proposed method to get information combined is to use the feature vectors of the object appearance and the part appearance. Relative location information that extracted by an offset net is also added into the combined feature vector.
+
+The experiments on PASCAL-part dataset showed that the proposed method is able to improved an existing object detection model significantly in part detection task. The experiments on fine-grained recognition dataset CUB200-2011 also showed the proposed method gets a state-of-the-art result.
+
 ### Evolution Strategies as a Scalable Alternative to Reinforcement Learning
 * Authors: Tim Sailmans, Jonathan Ho, Xi Chen, Ilya Sutskever
 * Index: arXiv 1703.03864
