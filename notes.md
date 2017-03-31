@@ -1,3 +1,14 @@
+### DeNet: Scalable Real-time Object Detection with Directed Sparse Sampling
+* Authors: Lachlan Tychsen-Smith, Lars Petersson
+* Index: arXiv 1703.10295
+* Reading date: 31/03/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection
+
+This paper proposed DeNet, a real-time object detector based on estimating the corner distribution and sparse sampling. The estimation of corner distribution is produced by a deconvolution network, which follows the fully convolutional network structure. By matching two corners, the model is able to predict the probability of each bounding box.
+
+The experiments showed that the model outperforms previous state-of-the-art real-time object detectors and achieves a comparable result to best detectors. The novel proposals are the most important contribution of this paper.
+
 ### Objects as context for part detection
 * Authors: Abel Gonzalez-Garcia, Davide Modolo, Vittorio Ferrari
 * Index: arXiv 1703.09529
