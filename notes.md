@@ -1,3 +1,14 @@
+### Semantic Instance Segmentation via deep Metric Learning
+* Authors: Alireza Fathi, Zbigniew Wojna, Vivek Rathod, Peng Wang, Hyun Oh Song, Sergio Guadarrama, Kevin P. Murphy
+* Index: arXiv 1703.10277
+* Reading date: 05/04/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Instance Segmentation
+
+This paper proposed a metric learning method to solve semantic instance segmentation problem. The authors found that it is possible to learn a similarity metric of different instances in the image that is able to distinguish different instances even when they are in same category. Based on the successful embedding metric model, they proposed a seediness model that is used to generate seed of mask, which is similar to a semantic segmentation classification model.
+
+The experiments show that this model is a state-of-the-art proposal-free model for instance segmentation problem. The result is also competitive to the proposal-based models on PASCAL VOC dataset.
+
 ### DeNet: Scalable Real-time Object Detection with Directed Sparse Sampling
 * Authors: Lachlan Tychsen-Smith, Lars Petersson
 * Index: arXiv 1703.10295
