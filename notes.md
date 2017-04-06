@@ -1,3 +1,14 @@
+### Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade
+* Authors: Xiaoxiao Li, Ziwei Liu, Ping Luo, Cheng Change Loy, Xiaoou Tang
+* Index: arXiv 1704.01344, CVPR 2017
+* Reading date: 06/04/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Semantic Segmentation
+
+This paper presents Deep Layer Cascade, a novel method to improve existing semantic segmentation model both in performance and speed. The idea is to output the easy mask pixels in advance, which makes later layers focus on the hard pixels. By combining the outputs of different stages, the final segmentation is able to beat the baseline models.
+
+The model used in the experiments is based on Inception-ResNet, which contains enough stages. The experiments on VOC 2012 and Cityscapes showed that the proposed model achieves the state-of-the-art level.
+
 ### Semantic Instance Segmentation via deep Metric Learning
 * Authors: Alireza Fathi, Zbigniew Wojna, Vivek Rathod, Peng Wang, Hyun Oh Song, Sergio Guadarrama, Kevin P. Murphy
 * Index: arXiv 1703.10277
@@ -13,7 +24,7 @@ The experiments show that this model is a state-of-the-art proposal-free model f
 * Authors: Lachlan Tychsen-Smith, Lars Petersson
 * Index: arXiv 1703.10295
 * Reading date: 31/03/2017
-* Categories: Computer Vision, Machine Learning
+* Categories: Computer Vision, Machine Learningp
 * Tag: Object detection
 
 This paper proposed DeNet, a real-time object detector based on estimating the corner distribution and sparse sampling. The estimation of corner distribution is produced by a deconvolution network, which follows the fully convolutional network structure. By matching two corners, the model is able to predict the probability of each bounding box.
