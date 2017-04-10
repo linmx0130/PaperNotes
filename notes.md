@@ -1,3 +1,14 @@
+### A Hierarchical Approach for Generating Descriptive Image Paragraphs
+* Authors: Jonathan Krause, Justin Johnson, Ranjay Krishna, Li Fei-fei
+* Index: arXiv 1611.06607, CVPR 2017
+* Reading date: 10/04/2017
+* Categoires: Computer Vision, Natural Language Processing, Machine Learning
+* Tag: Image Caption
+
+This paper proposed to overcome the limitations of basic image caption task by generate descriptive paragraphs for the input images. In order to solve the challenge task, they proposed a model based on region detector and hierarchical recurrent neural networks. A projection pooling is used to extract features of all object regions into a fixed size vector. The sentence RNN gets the feature vector as input and produce topic vectors as the inputs of the following word RNN.
+
+The experiments show that this model outperforms the baseline models. But there is still a large gap between the model and humans.
+
 ### Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade
 * Authors: Xiaoxiao Li, Ziwei Liu, Ping Luo, Cheng Change Loy, Xiaoou Tang
 * Index: arXiv 1704.01344, CVPR 2017
