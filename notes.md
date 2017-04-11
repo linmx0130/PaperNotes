@@ -1,3 +1,14 @@
+### Weight Uncertainty in Neural Networks
+* Authors: Charles Blundell, Julien Cornebise, Koray Kavukcuoglu, Daan Wierstra
+* Index: arXiv 1505.05424, ICML 2015
+* Reading date: 11/04/2017
+* Categories: Machine Learning
+* Tag: Bayesian Neural Networks
+
+This paper introduce Bayes by Backprop, a novel and efficient algorithm that allows to optimize neural networks with complex prior weights distribution. Firstly, the authors proved the unbiased Monte Carlo gradients which make the backpropagation possible. With a Gaussian variational posterior as an example, they proposed scale mixture Gaussian prior, which avoids the overfitting of the poor initial parameters.
+
+ The experiments on Bandits, MNIST digits classification task and simple non-linear regression show that efficiency of the proposed method in making reasonable predictions about unseen data.
+
 ### A Hierarchical Approach for Generating Descriptive Image Paragraphs
 * Authors: Jonathan Krause, Justin Johnson, Ranjay Krishna, Li Fei-fei
 * Index: arXiv 1611.06607, CVPR 2017
