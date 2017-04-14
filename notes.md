@@ -1,3 +1,14 @@
+### Spatial Memory for Context Reasoning in Object Detection
+* Authors: Xinlei Chen, Abhinav Gupta
+* Index: arXiv 1704.04224
+* Reading date: 14/04/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object Detection
+
+In this paper, the authors proposed to utilize a spatial memory module to improve object detection framework by providing the ability of context reasoning. The proposed spatial memory is based on 2D recurrent neural network with an ROI indexing. The convolution features are fused before the final predictions.
+
+The experiments show that this method improves the precision of the prediction a lot. But the recall and mAP drops. The fancy idea is that it is possible to reason by fusing the features before ROI Pooling.
+
 ### Weight Uncertainty in Neural Networks
 * Authors: Charles Blundell, Julien Cornebise, Koray Kavukcuoglu, Daan Wierstra
 * Index: arXiv 1505.05424, ICML 2015
