@@ -1,5 +1,14 @@
+### Improving Object Detection With One Line of Code
+* Authors: Navaneeth Bodla, Bharat Singh, Rama Chellappa, Larry S. Davis
+* Index: arXiv 1704.04503
+* Reading date: 18/04/2017
+* Categories: Computer Vision
+* Tag: Object Detection, Non-maximum suppression
+
+This paper proposed an extension of traditional NMS algorithm as Soft-NMS. The proposed algorithm suppresses the low-score proposal boxes by decreasing their scores rather than simply removing them. The authors proposed two different functions to change the scores. The experiments show that the proposed method improves state-of-the-art object detection by at least 1% in AP. Since Soft-NMS is easy to implement in current system architecture, it could be seen as a competitive alternative of NMS.
+
 ### Get To The Point: Summarization with Pointer-Generator Networks
-* Authros: Abigail See, Peter J. Liu, Christopher D. Manning
+* Authors: Abigail See, Peter J. Liu, Christopher D. Manning
 * Index: arXiv 1704.04368, ACL 2017
 * Reading date: 17/04/2017
 * Categories: Natural Language, Machine Learning
