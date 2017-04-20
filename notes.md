@@ -1,3 +1,14 @@
+### Neural Module Networks
+* Authors: Jacob Andreas, Marcus Rohrbach, Trevor Darrell, Dan Klein
+* Index: arXiv 1511.02799, CVPR 2016
+* Reading date: 20/04/2017
+* Categories: Computer Vision, Natural Language Processing, Machine Learning
+* Tag: Visual Question Answering
+
+This paper proposed Neural Module Networks, which are a kind of models that are composed by some small sharing modules. In order to solve visual QA task, they designed five different modules: "FIND", "TRANSFORM", "COMBINE", "DESCRIBE", "MEASURE". Then a parser is used to transform the question into a symbolic representation, which guides the construction of the network. Finally, the network is used to solve the problem.
+
+The experiments showed that the proposed achieves state-of-the-art performance on both synthetic and natural datasets. The most important contribution of this paper is the possibility to learn some small modules and compose them dynamically.
+
 ### Improving Object Detection With One Line of Code
 * Authors: Navaneeth Bodla, Bharat Singh, Rama Chellappa, Larry S. Davis
 * Index: arXiv 1704.04503
