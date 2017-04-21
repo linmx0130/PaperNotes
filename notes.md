@@ -1,3 +1,14 @@
+### Learning to Reason: End-to-End Module Networks for Visual Question Answering
+* Authors: Ronghang Hu, JAcob Andreas, Marcus Rohrbach, Trevor Darrell, Kate Saenko
+* Index: arXiv 1704.05526
+* Reading date: 21/04/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Visual Question Answering, Reinforcement Learning
+
+This paper proposed End-to-End Module Networks, which is a class of models that are capable of predicting novel network construction directly from textual input. With a properly designed functional expression system, the model predicts an expression for an image with a sequence-to-sequence RNN. Reverse Polish Notation is used to simplify the learning task. Policy gradient is used to make end-to-end learning possible. They also proposed a method to clone behavior of expression prediction from expert polices.
+
+The experiments show that their method achieve state-of-the-art result on two synthetic visual question answering datasets.
+
 ### Neural Module Networks
 * Authors: Jacob Andreas, Marcus Rohrbach, Trevor Darrell, Dan Klein
 * Index: arXiv 1511.02799, CVPR 2016
