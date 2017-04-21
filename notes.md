@@ -1,3 +1,14 @@
+### Improved Techniques for Training GANs
+* Authors: Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki, Cheung, Alec Radford, Xi Chen
+* Index: arXiv 1606.03498
+* Reading date: 21/04/2017
+* Categories: Machine Learning
+* Tag: Generative Adversarial Networks
+
+This paper proposed some important tricks to improve the training of GANs based on the observations of the training procedure of GANs. The proposed feature matching tries to constraint the solution space of GANs. While other methods are able to make the generator stable and diverse. A semi-supervised learning method is also proposed to utilize the labeled data.
+
+The experiments show the quality improvements in the generated images. While the proposed tricks lead us to get a better understand of GANs.
+
 ### Learning to Reason: End-to-End Module Networks for Visual Question Answering
 * Authors: Ronghang Hu, JAcob Andreas, Marcus Rohrbach, Trevor Darrell, Kate Saenko
 * Index: arXiv 1704.05526
