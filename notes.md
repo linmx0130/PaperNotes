@@ -1,3 +1,14 @@
+### Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data
+* Authors: Nicolas Papernot, Martin Abadi, Ulfar Elingsson, Ian Goodfellow, Kunal Talwar
+* Index: ICLR 2017
+* Reading date: 24/04/2017
+* Categories: Machine Learning
+* Tag: Privacy-preserving Learning
+
+This paper introduce Private Aggregation of Teacher Ensembles, a privacy-preserving learning methods. The framework is to train an ensemble of teacher models on the sensitive data and use the teacher models as an interface for student models. The training of student model is possible to access the knowledge of sensitive data without touching them.
+
+A GAN-based semi-supervised learning model is used as the student model. By the theoretical inductions and experiments, the authors show that the proposed method achieve high performance with good protection of sensitive data.  
+
 ### Improved Techniques for Training GANs
 * Authors: Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki, Cheung, Alec Radford, Xi Chen
 * Index: arXiv 1606.03498
