@@ -1,3 +1,14 @@
+### ScaleNet: Guiding Object Proposal Generation in Supermarkets and Beyond
+* Authors: Siyuan Qiao, Wei Shen, Weichao Qiu, Chenxi Liu, Alan Yuille
+* Index: arXiv 1704.06752
+* Reading date: 25/04/2017
+* Categories: Computer Vision
+* Tag: Object Detection
+
+This paper proposed ScaleNet, which improves object proposals by predicting the scales in the input images. The scale distribution learning is performed by minimizing Kullback-Leibler divergence to the ground truth scales distribution. The images are resized to some scales sampled from the scale distribution.
+
+The experiments on COCO dataset and Amazon Supermarket dataset showed that the proposed method outperforms baseline models in average recall.
+
 ### Detecting and Recognizing Human-Object Interactions
 * Authors: Georgia Gkioxari, Ross Girshick, Piotr Dollar, Kaiming He
 * Index: arXiv 1704.07333
