@@ -1,3 +1,14 @@
+### Detecting and Recognizing Human-Object Interactions
+* Authors: Georgia Gkioxari, Ross Girshick, Piotr Dollar, Kaiming He
+* Index: arXiv 1704.07333
+* Reading date: 25/04/2017
+* Categories: Computer Vison
+* Tag: Object Detection, Visual Relationship
+
+This paper proposed InteractNet, a model designed for detecting human-object interactions. Based on Faster-RCNN framework, a novel target localization model is proposed to measure the possibility of the interactions with the image feature of human and the position of the object.
+
+The experiments performed on V-COCO datasets show that the proposed method beats the baseline with a large margin.
+
 ### Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data
 * Authors: Nicolas Papernot, Martin Abadi, Ulfar Elingsson, Ian Goodfellow, Kunal Talwar
 * Index: ICLR 2017
