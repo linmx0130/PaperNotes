@@ -1,3 +1,25 @@
+### Automatic Real-time Background Cut for Portrait Videos
+* Authors: Xiangyong Shen, Ruixing Wang, Hengshuang Zhao, Jiaya Jia
+* Index: arXiv 1704.08812
+* Reading date: 02/05/2017
+* Categories: Computer Vision
+* Tag: Background Cut
+
+This paper proposed a novel background cut algorithm that is fast and accurate. Based on a light ResNet, a background attenuation model is introduced. The manually cropped background samples are also pushed into the network. The concatenation of the features extracted from the input frames and the background samples are used to predict a segmentation maps. Finally, a spatial-temporal refinement network is used to improve the quality of the final results.
+
+The proposed method is attractive in commercial applications. The experiments show that the proposed method outperforms the baseline significantly. This paper shows the effectiveness of background sample features in background cut.
+
+### Abstract Syntax Networks for Code Generation and Semantic Parsing
+* Authors: Maxim Rabinovich, Mitchell Stern, Dan Klein
+* Index: arXiv 1704.07535, ACL 2017
+* Reading date: 01/05/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Semantic Parsing, Code Generation
+
+The authors introduce abstract syntax networks, which is a neural network model framework based on abstract syntax trees. The model is of encoder-decoder style. The encoder is a normal recurrent neural network like LSTMs, while the decoder is structured as a collection of mutually recursive modules. Since there are composite types, constructors, constructor fields and primitive types in the abstract syntax trees, four different models are proposed to process these structures.
+
+The experiments on code generation show that the proposed method improve the state-of-the-art result significantly. The experiments on semantic parsing shows that the method is also competitive in natural language parsing.
+
 ### ScaleNet: Guiding Object Proposal Generation in Supermarkets and Beyond
 * Authors: Siyuan Qiao, Wei Shen, Weichao Qiu, Chenxi Liu, Alan Yuille
 * Index: arXiv 1704.06752
