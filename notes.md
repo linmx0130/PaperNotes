@@ -1,3 +1,12 @@
+### Discourse-Based Objectives for Fast Unsupervised Sentence Representation Learning
+* Authors: Yacine Jernite, Samuel R. Bowman, David Songtag
+* Index: arXiv 1705.00557
+* Reading date: 02/05/2017
+* Categories: Natural Language Processing
+* Tag: Sentence Representation
+
+This paper introduced three objective loss functions for unsupervised sentence representation learning through discourse coherence. The objectives are binary ordering of sentences, next sentence relations and conjunction predictions. The experiments shows that the proposed method achieve competitive results with much fewer training time. 
+
 ### Automatic Real-time Background Cut for Portrait Videos
 * Authors: Xiangyong Shen, Ruixing Wang, Hengshuang Zhao, Jiaya Jia
 * Index: arXiv 1704.08812
