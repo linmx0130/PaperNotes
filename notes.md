@@ -1,3 +1,14 @@
+### Xception: Deep Learning with Depthwise Separable Convolutions
+* Authors: Francois Chollet
+* Index: arXiv 1610.02357
+* Reading date: 08/05/2017
+* Categories: Computer Vision, Machine Leanring
+* Tag: Base model
+
+This paper extend the Inception hypothesis and proposed a new building block for deep neural networks: Depthwise Separable Convolutions. Depthwise separable convolutions are composed by a depthwise convolution, followed by a pointwise convolution. This architecture explicitly factors the convolution operation into an operation considering spatial correlations and an operation for cross-channel correlations.
+
+The experiments showed that with same amount of parameters, the proposed method outperforms previous Inception networks. The depthwise separable convolutions show itself as a desirable building blocks for computer vision.
+
 ### Discourse-Based Objectives for Fast Unsupervised Sentence Representation Learning
 * Authors: Yacine Jernite, Samuel R. Bowman, David Songtag
 * Index: arXiv 1705.00557
