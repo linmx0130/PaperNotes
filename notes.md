@@ -1,8 +1,19 @@
+### Sequential Attention
+* Authors: Sebastian Brarda, Philip Yeres, Samuel R. Bowman
+* Index: arXiv 1705.02269
+* Reading date: 08/05/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Attention Mechanism, Text Comprehension
+
+This paper introduces sequential attention, a sequential version of traditional attention layers. Compared to traditional attention, the proposed method used a recursive neural network to model the attention vector, which takes the correlations on attention of different words into considering.
+
+The experiments on CNN dataset and Who did What dataset show the effectiveness of this new attention mechanism. More experiments should be performed to explore the properties of this method.
+
 ### Xception: Deep Learning with Depthwise Separable Convolutions
 * Authors: Francois Chollet
 * Index: arXiv 1610.02357
-* Reading date: 08/05/2017
-* Categories: Computer Vision, Machine Leanring
+* Reading date: 07/05/2017
+* Categories: Computer Vision, Machine Learning
 * Tag: Base model
 
 This paper extend the Inception hypothesis and proposed a new building block for deep neural networks: Depthwise Separable Convolutions. Depthwise separable convolutions are composed by a depthwise convolution, followed by a pointwise convolution. This architecture explicitly factors the convolution operation into an operation considering spatial correlations and an operation for cross-channel correlations.
@@ -16,7 +27,7 @@ The experiments showed that with same amount of parameters, the proposed method 
 * Categories: Natural Language Processing
 * Tag: Sentence Representation
 
-This paper introduced three objective loss functions for unsupervised sentence representation learning through discourse coherence. The objectives are binary ordering of sentences, next sentence relations and conjunction predictions. The experiments shows that the proposed method achieve competitive results with much fewer training time. 
+This paper introduced three objective loss functions for unsupervised sentence representation learning through discourse coherence. The objectives are binary ordering of sentences, next sentence relations and conjunction predictions. The experiments shows that the proposed method achieve competitive results with much fewer training time.
 
 ### Automatic Real-time Background Cut for Portrait Videos
 * Authors: Xiangyong Shen, Ruixing Wang, Hengshuang Zhao, Jiaya Jia
