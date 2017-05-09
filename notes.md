@@ -1,3 +1,14 @@
+### Metacontrol For Adaptive Imagination-Based Optimization
+* Authors: Jessica B. Hamrick, Andrew, J. Ballard, Razvan, Pascanu, Oriol Vinyals, Nicolas Heess, Peter W. Battaglia
+* Index: arXiv 1705.02670
+* Reading date: 09/05/2017
+* Categories: Reinforcement Learning, Machine Learning
+* Tag: Meta-learner
+
+This work shows the possibility to incorporate computation cost as a part of the loss function in the model training. The proposed method uses a reinforcement learning agent as the meta-controller to manage the inference procedure by choosing which expert models to run. The meta-controller is trained with a loss combined prediction loss and the computation cost. The expert models and the real controller are trained as the normal neural networks and reinforcement learning agents. While the meta-controller is trained by the REINFORCE algorithm.
+
+The experiments on Space Ship dataset show the effectiveness of this method. However, more experiments should be executed on different tasks.
+
 ### Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks
 * Authors: Samy Bengio, Oriol Vinyals, Navdeep Jaitly, Noam Shazeer
 * Index: arXiv 1506.03099, NIPS 2015
