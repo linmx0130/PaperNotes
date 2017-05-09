@@ -1,3 +1,14 @@
+### Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks
+* Authors: Samy Bengio, Oriol Vinyals, Navdeep Jaitly, Noam Shazeer
+* Index: arXiv 1506.03099, NIPS 2015
+* Reading date: 09/05/2017
+* Categories: Machine Learning
+* Tag: Recurrent Neural Networks
+
+This work proposed curriculum learning, a scheduled ground truth sampling method, to improve the performance of recurrent neural network in sequence prediction tasks. In order to overcome the discrepancy between the training and the inference of the recurrent neural networks caused by the feeding of the previous token, the authors proposed to use token predicted from the models with a probability, rather simply use the ground truth previous token.
+
+The experiments on MSCOCO caption, constituency parsing and speech recognition show the proposed method is effective and general to most sequence learning tasks by using recurrent neural networks.
+
 ### Sequential Attention
 * Authors: Sebastian Brarda, Philip Yeres, Samuel R. Bowman
 * Index: arXiv 1705.02269
