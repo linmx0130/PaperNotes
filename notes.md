@@ -1,3 +1,14 @@
+### Convolutional Sequence to Sequence Learning
+* Authors: Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin
+* Index: arXiv 1705.03122
+* Reading date: 10/05/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Machine Translation
+
+This work presents a fully convolutional sequence to sequence model for machine translation. Besides using deep convolution neural networks as the encoder and decoder, the authors proposed multi-step attention and position embeddings to improve the performance.
+
+With carefully initialization and normalization, the model outperforms previous state-of-the-art machine translation models based on recurrent neural networks in experiments. This work shows the potential of CNN in NLP is not fully explored yet.
+
 ### Metacontrol For Adaptive Imagination-Based Optimization
 * Authors: Jessica B. Hamrick, Andrew, J. Ballard, Razvan, Pascanu, Oriol Vinyals, Nicolas Heess, Peter W. Battaglia
 * Index: arXiv 1705.02670
