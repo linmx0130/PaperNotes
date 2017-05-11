@@ -1,3 +1,14 @@
+### Inferring and Executing Programs for Visual Reasoning
+* Authors: Justin Johnson, Bharath Hariharan, Laurens van der Maaten, Judy Hoffman, Li Fei-fei, C. Lawrence Zitnick, Ross Girshick
+* Index: arXiv 1705.03633
+* Reading date: 11/05/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Visual Question Answering
+
+This paper presents a new method for solving visual question answering problems with reasoning requirements. The proposed method utilizes a program generator based on sequence-to-sequence LSTM to predict a expression program for the query. Then an execution engine is utilized to compute the answer. The execution engine is based on general module components based on standard residual blocks.
+
+The proposed method outperforms baselines on CLEVR datasets. This work shows the possibility to use general components in module networks. But more works should be performed for more general VQA tasks.
+
 ### Convolutional Sequence to Sequence Learning
 * Authors: Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin
 * Index: arXiv 1705.03122
