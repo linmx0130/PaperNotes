@@ -1,3 +1,14 @@
+### Unsupervised Object Discovery and Localization in the Wild: Part-based Matching with Bottom-up Region Proposals
+* Authors: Minsu Cho, Suha Kwak, Cordelia Schmid, Jean Ponce
+* Index: arXiv 1501.06170
+* Reading date: 14/05/2017
+* Categories: Computer Vision
+* Tag: Object Detection, Object Matching
+
+This paper proposed a part-based matching method to address unsupervised object discovery and localization problems. The authors proposed the Hough match confidence to evaluate the how good a matching pair is. The model utilizes the assumption that decouples the appearance likelihood and the geometry likelihood with a pose displacement parameter. The foreground localization and object discovery algorithm is based on the Hough match confidence.
+
+The experiments on PASCAL VOC datasets show that the proposed method achieve a rather high score among unsupervised methods. The proposed part-based matching algorithm is useful in a lot of different tasks.
+
 ### Inferring and Executing Programs for Visual Reasoning
 * Authors: Justin Johnson, Bharath Hariharan, Laurens van der Maaten, Judy Hoffman, Li Fei-fei, C. Lawrence Zitnick, Ross Girshick
 * Index: arXiv 1705.03633
