@@ -1,6 +1,6 @@
 ### Unsupervised Object Discovery and Localization in the Wild: Part-based Matching with Bottom-up Region Proposals
 * Authors: Minsu Cho, Suha Kwak, Cordelia Schmid, Jean Ponce
-* Index: arXiv 1501.06170
+* Index: arXiv 1501.06170, CVPR2015
 * Reading date: 14/05/2017
 * Categories: Computer Vision
 * Tag: Object Detection, Object Matching
