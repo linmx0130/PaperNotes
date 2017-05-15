@@ -1,3 +1,14 @@
+### SCNet: Learning Semantic Correspondence
+* Authors: Kai Han, Rafael S. Rezende, Bumsub Ham, Kwan-Yee K. Wong, Minus Cho, Cordelia Schmid, Jean Ponce
+* Index: arXiv 1705.04043
+* Reading date: 15/05/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Semantic Correspondence
+
+This work addresses the problem of establishing semantic correspondence between two images. The proposed model is a modified from probabilistic Hough matching, in which a sparse geometry kernel is used to model the geometry similarity. A gradient-based learning algorithm is utilized to learn the appearance. Based on state-of-the-art detection network, The matching of regions from different images is performed.
+
+The model outperforms previous state-of-the-art models that based on hand-crafted features. The sparsity of the geometry kernel makes the training possible.
+
 ### A Deep Reinforced Model for Abstractive Summarization
 * Authors: Romain Paulus, Caiming Xiong, Richard Socher
 * Index: arXiv 1705.04304
