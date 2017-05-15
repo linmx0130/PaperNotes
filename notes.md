@@ -1,3 +1,14 @@
+### A Deep Reinforced Model for Abstractive Summarization
+* Authors: Romain Paulus, Caiming Xiong, Richard Socher
+* Index: arXiv 1705.04304
+* Reading date: 15/05/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Text Summarization
+
+This work presents a RNN-based abstractive summarization model based on intra-attention and reinforcement learning. The intra-temporal attention is added into the encoder and the decoder to overcome the repetition output problem. Some strong constraints to avoid repetition is also utilized. Finally, the self-critical policy gradient is used to combine the ROUGH score into the objective function.
+
+The experiments on NYT dataset and CNN/Daily Mail dataset shows that the proposed loss function and the intra-temporal attention really enhanced the encoder-decoder based abstractive summarization system.
+
 ### Unsupervised Object Discovery and Localization in the Wild: Part-based Matching with Bottom-up Region Proposals
 * Authors: Minsu Cho, Suha Kwak, Cordelia Schmid, Jean Ponce
 * Index: arXiv 1501.06170, CVPR2015
