@@ -1,3 +1,14 @@
+### Unimodal probability distribution for ordinal classification
+* Authors: Christopher Beckham, Christopher Pal
+* Index: arXiv 1705.05278, ICML 2017
+* Reading date: 16/05/2017
+* Categories: Machine Learning
+* Tag: Ordinal Classification
+
+This paper addresses the ordinal classification problem: in which the prediction targets are discrete and ordered. The Poisson distribution is used in the proposed model to enhance the ordinal prior. The proposed method is able to be packaged as a normal neural layer, so could be used in existing deep learning models.
+
+The experiments show the proposed method is competitive compared to cross-entropy loss, but the prediction distribution is more meaningful.
+
 ### SCNet: Learning Semantic Correspondence
 * Authors: Kai Han, Rafael S. Rezende, Bumsub Ham, Kwan-Yee K. Wong, Minus Cho, Cordelia Schmid, Jean Ponce
 * Index: arXiv 1705.04043
