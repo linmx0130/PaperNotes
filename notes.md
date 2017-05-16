@@ -1,3 +1,14 @@
+### Curiosity-driven Exploration by Self-supervised prediction
+* Authors: Deepak Pathak, Pulkit Agrawal, Alexei A. Efros, Trevor Darrell
+* Index: arXiv 1705.05363, ICML 2017
+* Reading date: 16/05/2017
+* Categories: Reinforcement Learning, Machine Learning
+* Tag: Exploration
+
+This paper proposed the Intrinsic Curiosity Module, a small sub-network for deep reinforcement learning systems to model the curiosity as an extra reward. The intrinsic curiosity module tries to learn the model's actions and the feature vectors of the environment in next step. Then the L2-distance between the prediction features and the real features are used as a curiosity reward, which encourages the exploration.
+
+The experiments on A3C agents show that the proposed method accelerates the convergence and makes training possible in some difficult setting. 
+
 ### Unimodal probability distribution for ordinal classification
 * Authors: Christopher Beckham, Christopher Pal
 * Index: arXiv 1705.05278, ICML 2017
