@@ -1,3 +1,14 @@
+### Arc-swift: A Novel Transition System for Dependency Parsing
+* Authors: Peng Qi, Christopher D. Manning
+* Index: arXiv 1705.04434, ACL 2017
+* Reading date: 17/05/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Dependency Parsing
+
+This work presents a novel transition-based dependency parser that takes global information into consider. The non-local transition arc is introduced to predict a constituent that has consumes all of its right dependents efficiently. The proposed method equips the transition-based parser with the ability like graph-based parser.
+
+The experiments show that Arc-swift outperforms previous state-of-the-art transition-based model on EN-UD dataset and gets comparable result on PTB-SD datasets.
+
 ### Curiosity-driven Exploration by Self-supervised prediction
 * Authors: Deepak Pathak, Pulkit Agrawal, Alexei A. Efros, Trevor Darrell
 * Index: arXiv 1705.05363, ICML 2017
@@ -7,7 +18,7 @@
 
 This paper proposed the Intrinsic Curiosity Module, a small sub-network for deep reinforcement learning systems to model the curiosity as an extra reward. The intrinsic curiosity module tries to learn the model's actions and the feature vectors of the environment in next step. Then the L2-distance between the prediction features and the real features are used as a curiosity reward, which encourages the exploration.
 
-The experiments on A3C agents show that the proposed method accelerates the convergence and makes training possible in some difficult setting. 
+The experiments on A3C agents show that the proposed method accelerates the convergence and makes training possible in some difficult setting.
 
 ### Unimodal probability distribution for ordinal classification
 * Authors: Christopher Beckham, Christopher Pal
