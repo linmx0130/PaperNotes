@@ -1,3 +1,14 @@
+### Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representation
+* Authors: Eliyahu Kiperwasser, Yoav Goldberg
+* Index: TACL vol. 4 313-327, 2016
+* Reading date: 21/05/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Dependency Parsing
+
+This work addresses the difficulty of feature engineering in building natural language parsers. The proposed method utilize the bidirectional LSTM to generate word features. The margin based hinge loss is used to train the model in both trainsition-based and graph-based parsers.
+
+The experiments on PTB and CTB shows the proposed methods achieve state-of-the-art without hand-crafted features. This work sheds lights on the research of fully end-to-end RNN-based parsering system, and becomes the standard framework of later parsers.
+
 ### Arc-swift: A Novel Transition System for Dependency Parsing
 * Authors: Peng Qi, Christopher D. Manning
 * Index: arXiv 1705.04434, ACL 2017
