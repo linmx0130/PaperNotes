@@ -1,3 +1,14 @@
+### SSD: Single Shot MultiBox Detector
+* Authors: Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, Alexander C. Berg
+* Index: arXiv 1512.02325, ECCV 2016
+* Reading date: 17/05/2017
+* Categories: Computer Vision, Machine Leanring
+* Tag: Object Detection
+
+This work presents Single Shot MultiBox Detector, a fast object detector with high performance. The propose to utilize extra feature layers on different scales to improve the performance of detector. The default boxes and aspect ratios are used to make the regression easier.
+
+With carefully tuning, the proposed method outperforms state-of-the-art detectors on VOC datasets and get comparable result on COCO dataset. The extremely fast speed is attractive to the community.
+
 ### Arc-swift: A Novel Transition System for Dependency Parsing
 * Authors: Peng Qi, Christopher D. Manning
 * Index: arXiv 1705.04434, ACL 2017
