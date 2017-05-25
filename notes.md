@@ -1,3 +1,14 @@
+### Better Text Understanding Through Image-To-Text Transfer
+* Authors: Karol Kurach, Sylvain Gely, Michal, Jastzebski, Philip Haeusser, Olivier Teytaud, Damien Vincent, Olivier Bousquet
+* Index: arXiv 1705.08386
+* Reading date: 25/05/2017
+* Categories: Natural Language Processing, Computer Vision, Machine Learning
+* Tag: Word Embedding
+
+This work presents Visual Enhanced Text Embedding, a word embedding method enhanced with image data. With the help of a pretrained image model, VETE tries to connect the image representation and the embedding of its text description. A novel loss based on Pearson correlation is proposed to get better results.
+
+The experiments on various datasets show the good performance on different tasks brought by VETE.  
+
 ### SSD: Single Shot MultiBox Detector
 * Authors: Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, Alexander C. Berg
 * Index: arXiv 1512.02325, ECCV 2016
