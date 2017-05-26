@@ -1,3 +1,14 @@
+### Semantically Decomposing the Latent Spaces of Generative Adversarial Networks
+* Authors: Chris Donahue, Akshay Blasubramani, Julian McAuley, Zachary C. Lipton
+* Index: arXiv 175.07904
+* Reading date: 26/05/2017
+* Categories: Machine Learning
+* Tag: Generative Adversarial Networks
+
+This work presents a new algorithm to decomposing the latent spaces of GAN without specific loss function. The proposed method decomposes the latent space into an identity space, which controls the identity portion of latent codes, and a observation space, which takes effects on the presenting attributes like pose and lighting. A pairwise training scheme is used to make different codes work in different ways.
+
+The experiments on MS-CeleA and Amazon shoes datasets show the effectiveness of the proposed method in building identity latent codes. The proposed architectures sheds lights on controlling the latent spaces of GANs. 
+
 ### Better Text Understanding Through Image-To-Text Transfer
 * Authors: Karol Kurach, Sylvain Gely, Michal, Jastzebski, Philip Haeusser, Olivier Teytaud, Damien Vincent, Olivier Bousquet
 * Index: arXiv 1705.08386
