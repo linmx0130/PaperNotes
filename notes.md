@@ -1,3 +1,14 @@
+### Deep Learning is Robust to Massive Label Noise
+* Authors: David Rolnick, Andreas Veit, Serge Belongie, Nir Shavit
+* Index: arXiv 1705.10694
+* Reading date: 31/5/2017
+* Categories: Machine Learning
+* Tag: Noisy Label
+
+This work investigates the performance of deep neural networks under massive label noise. Their experiments show that convolution networks are able to achieve impressive accuracy when the correct labels are less than 10% of the whole dataset. They proposed that a sufficiently large training set is more important that a lower level of noise. However, when the minimum dataset size required for effective training is satisfied, increasing the dataset further dose not appreciably increase accuracy.
+
+Finally they proposed that larger batch size is able to eliminate the bias introduced by noisy labels. And injecting noise data is reducing the effective batch size, which requires lower learning rate for stable training.
+
 ### Dilated Residual Networks
 * Authors: Fisher Yu, Vladlen Koltun, Thomas Funkhouser
 * Index: arXiv 1705.09914
