@@ -1,3 +1,14 @@
+### Dilated Residual Networks
+* Authors: Fisher Yu, Vladlen Koltun, Thomas Funkhouser
+* Index: arXiv 1705.09914
+ * Reading date: 31/05/2017
+ * Categories: Computer Vision, Machine Learning
+ * Tag: Base model
+
+ This work presents a family of residual networks named dilated residual networks, which extending the respective fields by dilation convolutions. In order to get high-frequency activations, they replace max pooling by convolutional filters in ResNet.
+
+ The experiments shows that the proposed method improves the baseline model significantly in both classification and localization tasks. The experiment on semantic segmentation also achieves state-of-the-art result.
+
 ### Semantically Decomposing the Latent Spaces of Generative Adversarial Networks
 * Authors: Chris Donahue, Akshay Blasubramani, Julian McAuley, Zachary C. Lipton
 * Index: arXiv 175.07904
@@ -7,7 +18,7 @@
 
 This work presents a new algorithm to decomposing the latent spaces of GAN without specific loss function. The proposed method decomposes the latent space into an identity space, which controls the identity portion of latent codes, and a observation space, which takes effects on the presenting attributes like pose and lighting. A pairwise training scheme is used to make different codes work in different ways.
 
-The experiments on MS-CeleA and Amazon shoes datasets show the effectiveness of the proposed method in building identity latent codes. The proposed architectures sheds lights on controlling the latent spaces of GANs. 
+The experiments on MS-CeleA and Amazon shoes datasets show the effectiveness of the proposed method in building identity latent codes. The proposed architectures sheds lights on controlling the latent spaces of GANs.
 
 ### Better Text Understanding Through Image-To-Text Transfer
 * Authors: Karol Kurach, Sylvain Gely, Michal, Jastzebski, Philip Haeusser, Olivier Teytaud, Damien Vincent, Olivier Bousquet
