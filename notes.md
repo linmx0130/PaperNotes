@@ -1,13 +1,13 @@
 ### Dilated Residual Networks
 * Authors: Fisher Yu, Vladlen Koltun, Thomas Funkhouser
 * Index: arXiv 1705.09914
- * Reading date: 31/05/2017
- * Categories: Computer Vision, Machine Learning
- * Tag: Base model
+* Reading date: 31/05/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Base model
 
- This work presents a family of residual networks named dilated residual networks, which extending the respective fields by dilation convolutions. In order to get high-frequency activations, they replace max pooling by convolutional filters in ResNet.
+This work presents a family of residual networks named dilated residual networks, which extending the respective fields by dilation convolutions. In order to get high-frequency activations, they replace max pooling by convolutional filters in ResNet.
 
- The experiments shows that the proposed method improves the baseline model significantly in both classification and localization tasks. The experiment on semantic segmentation also achieves state-of-the-art result.
+The experiments shows that the proposed method improves the baseline model significantly in both classification and localization tasks. The experiment on semantic segmentation also achieves state-of-the-art result.
 
 ### Semantically Decomposing the Latent Spaces of Generative Adversarial Networks
 * Authors: Chris Donahue, Akshay Blasubramani, Julian McAuley, Zachary C. Lipton
