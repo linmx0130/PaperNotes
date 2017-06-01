@@ -1,7 +1,18 @@
+### Controllable Invariance through Adversarial Feature Learning
+* Authors: Qizhe Xie, Zihang Dai, Yulun Du, Eduard Hovy, Graham Neubig
+* Index: arXiv 1705.11122
+* Reading date: 01/06/2017
+* Categories: Machine Learning
+* Tag: Representation Learning
+
+This work presents a method to learn representation with some specific invariance, motivated by adversarial learning. The proposed method contains a discriminator to figure out the specific attributes we hope to eliminate. The encoder tries to confuse the discriminator by producing representation with the desired invariance.
+
+The experiments on multi-lingual datasets and and Extended Yale B image classification datasets show the potential of the proposed method in invariant representation learning tasks.
+
 ### Deep Learning is Robust to Massive Label Noise
 * Authors: David Rolnick, Andreas Veit, Serge Belongie, Nir Shavit
 * Index: arXiv 1705.10694
-* Reading date: 31/5/2017
+* Reading date: 31/05/2017
 * Categories: Machine Learning
 * Tag: Noisy Label
 
@@ -339,7 +350,7 @@ This paper introduce Bayes by Backprop, a novel and efficient algorithm that all
 * Authors: Jonathan Krause, Justin Johnson, Ranjay Krishna, Li Fei-fei
 * Index: arXiv 1611.06607, CVPR 2017
 * Reading date: 10/04/2017
-* Categoires: Computer Vision, Natural Language Processing, Machine Learning
+* Categories: Computer Vision, Natural Language Processing, Machine Learning
 * Tag: Image Caption
 
 This paper proposed to overcome the limitations of basic image caption task by generate descriptive paragraphs for the input images. In order to solve the challenge task, they proposed a model based on region detector and hierarchical recurrent neural networks. A projection pooling is used to extract features of all object regions into a fixed size vector. The sentence RNN gets the feature vector as input and produce topic vectors as the inputs of the following word RNN.
@@ -449,7 +460,7 @@ The experiments showed that the HVP approximation is able to compute an accurate
 * Authors: Dustin Tran, Rajesh Ranganath, David M. Blei
 * Index: arXiv 1702.08896
 * Reading date: 14/03/2017
-* Categoires: Machine Learning
+* Categories: Machine Learning
 * Tag: Implicit probabilistic models
 
 This paper developed deep implicit models and hierarchical models. These models are two classes of Bayesian hierarchical models which only assume a process that generate samples. Variational inference is used to optimize the models. However, the local densities $p(x_n, z_n| beta)$ and its variational approximation are bot intractable if the assumption of the latent models are removed, which poses a challenge to build the model. The authors proposed a ratio estimation for the ratio of log-likelihoods of two intractable densities, which is inspired by GAN.
