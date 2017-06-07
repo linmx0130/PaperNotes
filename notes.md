@@ -1,3 +1,14 @@
+### What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?
+* Authors: Alex Kendall, Yarin Gal
+* Index: arXiv 1703.04977
+* Reading date: 07/06/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Bayesian Neural Networks
+
+This paper presents a novel method to estimate the degree of uncertainty in deep neural networks, which makes it possible to improve previous models. The uncertainty is modeled as the scale parameter of a Gaussian or Lapalacian distribution depending on the input data. The proposed loss function is based on dropout variational inference, which helps efficient training and inference.
+
+The experiments on semantic segmentation and pixel-wise depth regression shows the proposed method is able to improve state-of-the-art models, and the learned uncertainty metric is reasonable, such as the blurred positions and object edges.
+
 ### Controllable Invariance through Adversarial Feature Learning
 * Authors: Qizhe Xie, Zihang Dai, Yulun Du, Eduard Hovy, Graham Neubig
 * Index: arXiv 1705.11122
@@ -28,7 +39,7 @@ Finally they proposed that larger batch size is able to eliminate the bias intro
 * Tag: Base model
 
 This work presents a family of residual networks named dilated residual networks, which extending the respective fields by dilation convolutions. In order to get high-frequency activations, they replace max pooling by convolutional filters in ResNet.
-
+xit
 The experiments shows that the proposed method improves the baseline model significantly in both classification and localization tasks. The experiment on semantic segmentation also achieves state-of-the-art result.
 
 ### Semantically Decomposing the Latent Spaces of Generative Adversarial Networks
