@@ -1,3 +1,14 @@
+### Show, Hear and Read: Deep Aligned Representations
+* Authors: Yusuf Aytar, Carl Vondrick, Antonio Torralba
+* Index: arXiv 1706.00932
+* Reading date: 07/06/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Representation Learning
+
+This work presents a unified framework to learn cross-modal representations from paired data. The proposed method is based on teacher-student framework, which poses a loss for learning alignment by model transfer. Another ranking-based loss is also proposed.
+
+The experiments on large paired datasets show the proposed beaten the baseline significantly in cross modal retrieval and some other tasks, and the possibility to learn representations of concepts that are independent to modalities.
+
 ### What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?
 * Authors: Alex Kendall, Yarin Gal
 * Index: arXiv 1703.04977
