@@ -1,3 +1,14 @@
+### Accurate, Large Minibatch SGD: Training Imagenet in 1 Hour
+* Authors: Priya Goyal, Piotr Dollar, Ross Girshick, Pieter Noordhuis, Lukasz Wesolowski, Aapo Kyrola, Andrew Tulloch, Yangqing Jia, Kaiming He
+* Index: arXiv 1706.02677
+* Reading date: 13/06/2017
+* Categories: Computer Vision, Machine Learning, Parallel Computation
+* Tag: Optimization
+
+This technological report presents some important tricks in training neural networks on large scale datasets. The linear scaling rule of learning rates is the key to large minibatches training. Gradual warmup and per-worker batch minibatches are proposed to make faster training feasible. Momentum correction is used in modifying learning while maintaining the performance. Binary blocks algorithm is used in multi-machine training.
+
+The experiments on different settings of Imagenet shows that the proposed methods are able to make large-scale training with large batch size of 8192 while maintains almost same performance.
+
 ### Show, Hear and Read: Deep Aligned Representations
 * Authors: Yusuf Aytar, Carl Vondrick, Antonio Torralba
 * Index: arXiv 1706.00932
