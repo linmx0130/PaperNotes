@@ -1,3 +1,14 @@
+### On Calibration of Modern Neural Network
+* Authors: Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger
+* Index: arXiv 1706.04599, ICML 2017
+* Reading date: 15/06/2017
+* Categories: Machine Learning
+* Tag: Confidence calibration
+
+This work surveys the confidence calibration of the softmax output from modern neural networks. The experiment result shows that batch normalization and and increase of model capacity are related to model miscalibration while improve the classification performance. The cause is the overfitting to negative log-likelihood loss. The authors proposed temperature scaling calibration, which is the simplest extension of Platt scaling to solve this problem on large scale dataset problems. The temperature constant is optimized on validation set.
+
+The experiments on various computer vision and natural language processing tasks shows the effectiveness of the proposed method. This work provides the insights of model confidence calibration problem with a simple but effective tool to calibrate existing model, which is important for the tasks that are sensitive to the confidence value.
+
 ### Accurate, Large Minibatch SGD: Training Imagenet in 1 Hour
 * Authors: Priya Goyal, Piotr Dollar, Ross Girshick, Pieter Noordhuis, Lukasz Wesolowski, Aapo Kyrola, Andrew Tulloch, Yangqing Jia, Kaiming He
 * Index: arXiv 1706.02677
