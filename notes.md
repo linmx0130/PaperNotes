@@ -1,3 +1,14 @@
+### Attention Is All You Need
+* Authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
+* Index: arXiv 1706.03762
+* Reading date: 16/06/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Machine Translation
+
+This work presents a novel machine translation without recurrent or convolutional neural networks, which achieve state-of-the-art results with much fewer parameters and computational resources. The proposed Transformer module is based on multi-head attention, whose kernel is scaled dot-product attention.
+
+The experiments on WMT 2014 datasets show the impressive performance of the proposed method, while the experiment on English constituency parsing shows the generalization ability of the proposed method. More exploration should be done in the future to expolit the potential of the Transformer module.
+
 ### On Calibration of Modern Neural Network
 * Authors: Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger
 * Index: arXiv 1706.04599, ICML 2017
