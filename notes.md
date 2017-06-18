@@ -1,3 +1,14 @@
+### Teaching Compositionality to CNNs
+* Authors: Austin Stone, Huayan Wang, Michael Stark, Yi Li, D. Scott Phoenix, Dileep George
+* Index: arXiv 1706.04313
+* Reading date: 17/06/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Network regularization
+
+This work proposed to enhanced state-of-the-art neural networks for computer vision by a novel compositional loss to decouple the relationship of different objects present in the image. With the help of mask annotation, the proposed method encourages the models to focus on the object features rather than the context.
+
+The experiments show the performance of the proposed method. While the community cares more about learning context information, this work shows that decoupling context may helps some computer vision tasks.
+
 ### Attention Is All You Need
 * Authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
 * Index: arXiv 1706.03762
