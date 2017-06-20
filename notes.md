@@ -18,6 +18,17 @@ The experiments also confirm the results. This work provides some important anal
 
 This work presents some theoretical insights of L2 regularization and batch normalization. In the networks with batch normalization, L2 regularization lose all of its regularization ability. While the only function left is to maintain the effective learning rate. By this observation the authors provide optimal learning rates for some typical optimizer.
 
+### Channel-Recurrent Variational Autoencoders
+* Wenling Shang, Kihyuk Sohn, Zeynap Akata, Yuandong Tian
+* Index: arXiv 1706.03729
+* Reading date: 18/06/2017
+* Categories: Machine Learning
+* Tag: Variational Autoencoder
+
+This work presents channel-recurrent variational autoencoders and block-covariance VAE, which are VAE variants. The proposed method splits covariance output of the encoding convolutional networks and adding fully-connected layers then to improve the ability of learning global context. LSTMs are used to connects different blocks of covariance output to eliminate inefficient and duplicated representations.
+
+The experiemts on various image generation tasks show the great improvement of quality given by the channel recurrent VAE. The also shows the performance of crVAE on semi-supervised tasks.
+
 ### Teaching Compositionality to CNNs
 * Authors: Austin Stone, Huayan Wang, Michael Stark, Yi Li, D. Scott Phoenix, Dileep George
 * Index: arXiv 1706.04313
