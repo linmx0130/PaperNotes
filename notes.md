@@ -1,9 +1,29 @@
+### Identity Matters in Deep Learning
+* Authors: Moritz Hardt, Tengyu Ma
+* Index: arXiv 1611.04231
+* Reading date: 20/06/2017
+* Categories: Machine Learning
+* Tag: Network design
+
+This work shows the importance of identity mapping in deep neural networks in both theory and experiments. They also prove the existence of global optimum with proper condition. With these results, they found that the residual networks has universal finite sample expressivity.
+
+The experiments also confirm the results. This work provides some important analysis of residual networks, which may help future networks designing.
+
+### L2 Regularization versus Batch and Weight Normalization
+* Authors: Twan van Laarhoven
+* Index: arXiv 1706.05350
+* Reading date: 19/06/2017
+* Categories: Machine Learning
+* Tag: Network design
+
+This work presents some theoretical insights of L2 regularization and batch normalization. In the networks with batch normalization, L2 regularization lose all of its regularization ability. While the only function left is to maintain the effective learning rate. By this observation the authors provide optimal learning rates for some typical optimizer.
+
 ### Teaching Compositionality to CNNs
 * Authors: Austin Stone, Huayan Wang, Michael Stark, Yi Li, D. Scott Phoenix, Dileep George
 * Index: arXiv 1706.04313
 * Reading date: 17/06/2017
 * Categories: Computer Vision, Machine Learning
-* Tag: Network regularization
+* Tag: Network design
 
 This work proposed to enhanced state-of-the-art neural networks for computer vision by a novel compositional loss to decouple the relationship of different objects present in the image. With the help of mask annotation, the proposed method encourages the models to focus on the object features rather than the context.
 
