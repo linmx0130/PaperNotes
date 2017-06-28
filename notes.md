@@ -1,3 +1,14 @@
+### Auto-painter: Cartoon Image Generation from Sketch by Using Conditional Generative Adversarial networks
+* Authors: Yifan Liu, Zengchang Qin, Zhenbo Luo, Hua Wang
+* Index: arXiv 1705.01908
+* Reading date: 28/06/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Generative adversarial networks
+
+This work presents a model which is able to colorize a cartoon image with sketch input. The proposed method utilizes a U-Net encoder-decoder to generate image with color. L1/L2 distance between the pixel values and the VGG features between generated images and ground truth images are also added into the loss function. Finally a total variation loss is used to encourage smoothness.
+
+The experiments on Japanimation datasets shows great performance of the proposed method. The U-Net encoder-decoder structure and proposed loss functions may be helpful in the other research probjects.
+
 ### Identity Matters in Deep Learning
 * Authors: Moritz Hardt, Tengyu Ma
 * Index: arXiv 1611.04231
