@@ -1,3 +1,14 @@
+### Teacher-Student Curriculum Learning
+* Authors: Tambet Matiisen, Avital Oliver, Taco Cohen, John Schulman
+* Index: arXiv 1707.00183
+* Reading date: 04/07/2017
+* Categories: Machine Learning
+* Tag: Meta-learning, Curriculum learning
+
+This work presents a curriculum learning framework based on POMDP. The parameters are viewed as the hidden states of the POMDP. The teacher will decide which task to be used in the following training epoch. The training objective of the teacher is to maximize the rewards that is computed from the scores of the student network. The authros also proposed Batch POMDP formulation which makes supervised learning possible.
+
+The experiments on various challenging tasks show the ability to make training faster and stable gained by this framework.
+
 ### Auto-painter: Cartoon Image Generation from Sketch by Using Conditional Generative Adversarial networks
 * Authors: Yifan Liu, Zengchang Qin, Zhenbo Luo, Hua Wang
 * Index: arXiv 1705.01908
