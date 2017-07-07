@@ -1,3 +1,14 @@
+### Neural Summarization by Extracting Senteces and Words
+* Authors: Jianpeng Cheng, Mirella Lapata
+* Index: ACL 2016
+* Reading date: 07/07/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Summarization, Attention mechanism
+
+This work presents a simple but effective framework to extracting sentences to compose summarization texts. The proposed method utilize convolutional networks to encode sentences and recurrent netowrks to encode documents. The sentence extractor is a binary classifier based on LSTM features to tell whether the sentence should be reversed. The word extractor is a language model based on attention mechanism. They also proposed a large scale DailyMail dataset for evaluating the models.
+
+The experiments show that the proposed method achieve comparable results on DUC-2002 datasets without human-engineered features and state-of-the-art result on DailyMail dataset. The idea of spliting summarization task into extacting tasks proves effective. Since the proposed model is simple, more complex designs may achieve better results.
+
 ### Teacher-Student Curriculum Learning
 * Authors: Tambet Matiisen, Avital Oliver, Taco Cohen, John Schulman
 * Index: arXiv 1707.00183
