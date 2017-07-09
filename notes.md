@@ -1,3 +1,14 @@
+### Adversarial Examples in the Physical World
+* Authors: Alexey Kurakin, Ian J. Goodfellow, Samy Bengio
+* Index: arXiv 1607.02533
+* Reading date: 09/07/2017
+* Categories: Machine Learning
+* Tag: Adversarial examples
+
+This work presents empirical results of three different adversarial example construction methods of deep neural networks. The proposed iterative least-likely class method gains best adversarial effects, but least robust against to artificial image transformations. They also show that even permuting the images by taking photos of adversarial examples is not able to defend the attacks. The physical attacks achieve a higher success rate.
+
+The experiments give us more insights on adversarial examples. Based on these results, more experiments should be performed to explore the property of adversarial examples and improve the security of machine learning models.
+
 ### Neural Summarization by Extracting Senteces and Words
 * Authors: Jianpeng Cheng, Mirella Lapata
 * Index: ACL 2016
