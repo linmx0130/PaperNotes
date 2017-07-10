@@ -1,3 +1,14 @@
+### A Scalable Global Model for Summarization
+* Authors: Dan Gillick, Benoit Favre
+* Index: NAACL HLT Workshop on Integer Linear Programming for Natural Language Processing, 2009
+* Reading date: 10/07/2017
+* Categories: Natural Language Processing
+* Tag: Summarization
+
+Inspired by the success of integer linear programming in summarization task, the authors proposed a novel summarization framework based on concepts to overcome the problems of previous summarization models. The summarization problem is formulated into a integer programming problem of the weight sum of concept indexs. With proper concept representations (e.g. bi-grams with at least one nonstop word), the proposed model achieved state-of-the-art results on TAC and DUC dataset.
+
+The authors also shows the scalability in practice of the proposed method, even though it is a NP-hard problem. An extension with additional constraints to incorporate sentence compression is also proposed, but the no good experiment results are achieved. The proposed framework is concise and powerful, and lead to more research on this topic.
+
 ### Adversarial Examples in the Physical World
 * Authors: Alexey Kurakin, Ian J. Goodfellow, Samy Bengio
 * Index: arXiv 1607.02533
