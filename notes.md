@@ -1,3 +1,14 @@
+### SummaRuNNer: A Recurrent Neural Network Based Sequnece Model for Extractive Summarization of Documents
+* Authors: Ramesh Nallapati, Feifei Zhai, Bowen Zhou
+* Index: AAAI 2017, arXiv 1611.04230
+* Reading date: 10/07/2017 
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Summarization
+
+This work presents a novel document summarization models based on GRU. By treating extractive summarization as a classification task, a hierachical RNN is proposed to get the representation of all sentences. A weighted sum model is used to combine the global information in the document. This work also proposed a RNN decoder to generate summarization without extractive labels. 
+
+The experiments on two large datasets show the great performance of the proposed method. They also achieved comparable result on DUC 2002. In this work, the extractive and abstractive approach are tried to work together. More research should be performed on this line.
+
 ### A Scalable Global Model for Summarization
 * Authors: Dan Gillick, Benoit Favre
 * Index: NAACL HLT Workshop on Integer Linear Programming for Natural Language Processing, 2009
