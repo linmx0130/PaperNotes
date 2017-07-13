@@ -1,3 +1,14 @@
+### A Learned Representation for Artistic Style
+* Authors: Vincent Dumoulin, Jonathon Shlens, Manjunath Kudlur
+* Index: arXiv 1610.07629, ICLR 2017
+* Reading date: 13/07/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Style transfer
+
+This work proposed conditional instance normalization, which is a variant of batch normalization, as a tool to learn multiple styles. The proposed method is simply replace the scales and shifts of batch normalization by values depending on the style class. The loss function is similar to most style transfer model that contains a content loss and a style loss. The only trainable parameters in this model is the conditional scales and shifts of conditional instance normalization operators. 
+
+The experiments show the great success of the proposed method: it achieves state-of-the-art style transfer result with much fewer parameters and less time. It is also easy to learn a new style by finetuning the existing model. The proposed simple, effective and scalable method of style transfer makes such applications possible on even a mobile device. The proposed conditional instance normalization also give us new insights on batch normalization.
+
 ### SummaRuNNer: A Recurrent Neural Network Based Sequnece Model for Extractive Summarization of Documents
 * Authors: Ramesh Nallapati, Feifei Zhai, Bowen Zhou
 * Index: AAAI 2017, arXiv 1611.04230
