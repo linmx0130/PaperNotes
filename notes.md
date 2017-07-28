@@ -1,3 +1,14 @@
+### STN-OCR: A Single Neural Network for Text Detection and Text Recognition
+* Authors: Chirstian Bartz, Haojin Yang, Christoph Meinel
+* Index: arXiv 1707.08831
+* Reading date: 29/07/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Text detection, Text recognition, Spatial transform network
+
+This work presents a novel models combine text detection and text recognition into a single model. The proposed model utilize a ResNet based convolutional network and bidirectional LSTM to produce N affine transformation matrices. Images that will be sent to be recognized are sampled with the affine transformation matrices.
+
+The experiments show the proposed achieve comparable performance with state-of-the-art OCR frameworks. The proposed STN-RNN localization model is quite novel.
+
 ### A Learned Representation for Artistic Style
 * Authors: Vincent Dumoulin, Jonathon Shlens, Manjunath Kudlur
 * Index: arXiv 1610.07629, ICLR 2017
