@@ -1,3 +1,14 @@
+### Focal Loss for Dense Object Detection
+* Authors: Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, Piotr Dollar
+* Index: arXiv 1708.02002
+* Reading date: 10/08/2017
+* Categories: Computer Vision, Machine Learning
+* Tag: Object detection, Cross entropy loss
+
+This work presents a novel variant of cross entropy loss, focal loss, to improve single shot object detector by addressing the class imbalance problem in object detection task. The proposed loss function contains a tunable focusing parameter to ignore the easy training example. 
+
+The author also propose RetinaNet and gain state-of-the-art result on MS COCO dataset among single shot detectors with focal loss. Thes experiments on single shot detector show the potential of focal loss.
+
 ### STN-OCR: A Single Neural Network for Text Detection and Text Recognition
 * Authors: Chirstian Bartz, Haojin Yang, Christoph Meinel
 * Index: arXiv 1707.08831
