@@ -1,3 +1,14 @@
+### Towards Interpretable Deep Neural Networks by Leveraging Adversarial Examples
+* Authors: Yinpeng Deng, Hang Su, Jun Zhu, Fan Bao
+* Index: arXiv 1708.05493
+* Reading date: 09/09/2017
+* Categoires: Machine Learning
+* Tag: Adversarial examples
+
+This work presents an empirical analysis on the features learned by deep neural networks based on discrepancy map of adversarial examples. They visualization results show the deep neural network simply learned discriminative patches rather than high-level concepts. They also proposed a quantitative metric to analyze the features.
+
+With the quantitative metric, the authors proposed a method based on prediction difference to detect adversarial inputs. But the experiments on defending is not provided. They also detect the meaning of some typical neurons in the internal representation (global pooling) of the deep neural networks, which provides the interpretability.
+
 ### Focal Loss for Dense Object Detection
 * Authors: Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, Piotr Dollar
 * Index: arXiv 1708.02002
