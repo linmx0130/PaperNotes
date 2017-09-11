@@ -1,3 +1,15 @@
+### Training RNNs as Fast as CNNs
+* Authors: Tao Lei, Yu Zhang
+* Index: arXiv 1709.02755
+* Reading date: 11/09/2017
+* Categories: Machine Learning
+* Tag: Recurrent Neural Networks
+
+This work proposed Simple Recurrent Unit, which is a simplified version of LSTM and GRU in order to expolit parallelism to speed up the training and inferencing. The proposed unit drops the term of hidden units in forgot gates and reset gates. The authors also provided a CUDA-level optimized implementation.
+
+The experiments show the proposed SRU is able to gain comparable performances on various tasks while the computation cost is reduced a lot. The experiments show that droping some connections in recurrent neural networks would not harm the performance.
+
+
 ### Towards Interpretable Deep Neural Networks by Leveraging Adversarial Examples
 * Authors: Yinpeng Deng, Hang Su, Jun Zhu, Fan Bao
 * Index: arXiv 1708.05493
