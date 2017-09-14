@@ -1,3 +1,14 @@
+### Houdini: Fooling Deep Structured Prediction Models
+* Authors: Moustapha Cisse, Yossi Adi, Natalia Neverova, Joseph Keshet
+* Index: arXiv 1707.05373
+* Reading date: 14/09/2017
+* Categories: Machine Learning
+* Tag: Adversarial examples
+
+This work presents Houdini loss, a nontrival loss function for structured prediction models trained with non-differentiable loss functions, which improves the effectiveness of attacking those models. The Houdini loss is consistent with the task loss in limitation while being differentiable. 
+
+The experiments on human pose estimation, semantic segmentation and speech recognition show the effectiveness of the proposed method. The tasks in different fields show that the Houdini loss may be useful in attacking most gradient-based machine learning models.
+
 ### Training RNNs as Fast as CNNs
 * Authors: Tao Lei, Yu Zhang
 * Index: arXiv 1709.02755
