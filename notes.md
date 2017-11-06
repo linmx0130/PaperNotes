@@ -1,3 +1,14 @@
+### Unsupervised Machine Translation Using Monolingual Corpora Only
+* Authros: Guillaume Lample, Ludovic Denoyer, Marc'Aurelio Ranzato
+* Index: arXiv 1711.00043
+* Reading date: 06/11/2017
+* Categories: Natural Language Processing, Machine Learning
+* Tag: Machine translation, Transfer learning, Adversarial training
+
+This paper shows that it is possible to learn a machine translation model by mapping words of two language into a same representation space WITHOUT parallel corporas. The proposed method includes a denoising auto-encoder to encode input sentences and an adversarial training loss to merge latent spaces of two different languages. The adversarial discriminator tries to tell from which language the hidden states are encoded. A cross domain training loss (cross entropy loss on back-translation outputs) is used to create the mapping directly. 
+
+The ablation study shows that noise in training auto-encoder contributes a lot on the final result. Adversarial loss and auto-encoding loss are also important. Finally iterative training will boost the performance at more than 5 BLEU scores. In fact they propose a brilliant method to map tokens from two different domains into a single space.
+
 ### Houdini: Fooling Deep Structured Prediction Models
 * Authors: Moustapha Cisse, Yossi Adi, Natalia Neverova, Joseph Keshet
 * Index: arXiv 1707.05373
