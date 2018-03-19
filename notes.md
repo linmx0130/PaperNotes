@@ -1,3 +1,14 @@
+### Dynamic-structured Semantic Propagation Network
+* Authros: Xiaodan Liang, Hongfei Zhou, Eric Xing
+* Index: arXiv 1803.06067
+* Reading date: 19/03/2017
+* Categories: Computer Vision
+* Tag: Semantic Segmentation
+
+This paper introduced a method to combine prior knowledge from WordNet to enhance semantic segmentation, which beats the baseline and make it possible to utilize various datasets with labels in different semantic levels.
+
+The proposed method decomposes the pixel-wise predictions of segmentation into some binary classification task, whcih follows the WordNet semantic trees. The CNN features are used as the hidden feature of root entity concept and each child node will use a non-linear operation on the concatenation of features of its ancestors to get its feature, which is inspired by DenseNet. This trick may be the key of the empirical success of this paper.
+
 ### Unsupervised Machine Translation Using Monolingual Corpora Only
 * Authros: Guillaume Lample, Ludovic Denoyer, Marc'Aurelio Ranzato
 * Index: arXiv 1711.00043
