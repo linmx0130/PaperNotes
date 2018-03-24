@@ -1,3 +1,14 @@
+### Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+* Authors: Alexis Conneau, Douwe Kiela, Holger Schwenk, Loic Barrault, Antoine Bordes
+* Index: arXiv 1705.02364
+* Reading date: 24/03/2017
+* Categories: Natural Language Processing
+* Tag: Natural language inference, Sentence representations
+
+This work validated that natural language inference data is useful in transfer learning for other natural language task by training a universal sentence encoder. The experiments show that BiLSTM features with max pooling produces best sentence representations in both natural language inferenfce and transfer learning tasks (including sentences classification, paraphrase detection and caption-image retrieval).
+
+The rich experiments results tell the readers that supervised learning of sentence representations will help other tasks. Using a pretrained sentence encoder may be a universal paradigm in complex models.
+
 ### Dynamic-structured Semantic Propagation Network
 * Authros: Xiaodan Liang, Hongfei Zhou, Eric Xing
 * Index: arXiv 1803.06067
