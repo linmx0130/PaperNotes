@@ -1,3 +1,14 @@
+### Context Encoding for Semantic Segmentation
+* Authors: Hang Zhang, Kristin Dana, Jianping Shi, Zhongyue Zhang, Xiaogang Wang, Ambrish Tyagi, Amit Agrawal
+* Index: arXiv 1803.08904
+* Reading date: 26/03/2017
+* Categories: Computer Vision
+* Tag: Semantic segmentation
+
+This work presents context encoding module for improving semantic segmentation neural network. The proposed module tries to learn a global representation of the input image. In order to make the representation indeed stores the global information, a classification branch is add to the context encoding module, which should produce high activations at all object claases occurred in the picture.
+
+Their rich experiments on PASCAL VOC and ADE2k datasets show the effectiveness of the proposed module. Recently adding auxiliary loss functions is a popular method to supplying meaning into a hidden layer of neural network.
+
 ### Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
 * Authors: Alexis Conneau, Douwe Kiela, Holger Schwenk, Loic Barrault, Antoine Bordes
 * Index: arXiv 1705.02364
