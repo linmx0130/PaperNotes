@@ -1,7 +1,29 @@
+### Graphical Generative Adversarial Networks
+* Authors: Chongxuan Li, Max Welling, Jun Zhu, Bo Zhang
+* Index: arXiv 1804.03429
+* Reading date: 16/04/2018
+* Categories: Machine Learning 
+* Tag: Generative adversarial network
+
+This work described the idea that combining graphical model and generative adversarial networks. By modeling the dependency relationships in generative problems with Bayesian networks, the proposed model use adversarial loss for training. This ideas is named as Graphical-GAN. 
+
+The authors show two instances of the Graphcal GAN: Gaussian Mixture GAN and State Space GAN. And they validated the effectiveness of two models in different problems empirically. They also proposed local optimization methods based on the insights from graphical modelling.
+
+### Referring Relationships
+* Authors: Ranjay Krishna, Ines Chami, Michael Bernstein, Li Fei-Fei
+* Index: arXiv 1803.10362
+* Reading date: 01/04/2018
+* Categories: Computer Vision
+* Tag: Visual relationships, Object localization
+
+This work proposed a new problem: referring a known relationship in an image, which is a useful simplified version of visual relationships detection task. Inspired by conditional random fields, this work proposed symmetric stacked attention shifting (SSAS) to model predictors in relationships. SSAS uses attention to perform specified message passing for each predictor.
+
+The experiments show the effectiveness of the proposed model, though it does not beat previous model with a large margin. But the idea is novel and this work shows that CRF-like message passing may be useful in many high-level tasks.
+
 ### Context Encoding for Semantic Segmentation
 * Authors: Hang Zhang, Kristin Dana, Jianping Shi, Zhongyue Zhang, Xiaogang Wang, Ambrish Tyagi, Amit Agrawal
 * Index: arXiv 1803.08904
-* Reading date: 26/03/2017
+* Reading date: 26/03/2018
 * Categories: Computer Vision
 * Tag: Semantic segmentation
 
@@ -12,7 +34,7 @@ Their rich experiments on PASCAL VOC and ADE2k datasets show the effectiveness o
 ### Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
 * Authors: Alexis Conneau, Douwe Kiela, Holger Schwenk, Loic Barrault, Antoine Bordes
 * Index: arXiv 1705.02364
-* Reading date: 24/03/2017
+* Reading date: 24/03/2018
 * Categories: Natural Language Processing
 * Tag: Natural language inference, Sentence representations
 
@@ -23,7 +45,7 @@ The rich experiments results tell the readers that supervised learning of senten
 ### Dynamic-structured Semantic Propagation Network
 * Authros: Xiaodan Liang, Hongfei Zhou, Eric Xing
 * Index: arXiv 1803.06067
-* Reading date: 19/03/2017
+* Reading date: 19/03/2018
 * Categories: Computer Vision
 * Tag: Semantic Segmentation
 
