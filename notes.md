@@ -1,3 +1,14 @@
+### Towards Accurate Multi-person Pose Estimation in the Wild
+* Authors: George Papandreou, Tyler Zhu, Nori Kanazawa, Alexander Toshev, Jonathan Tompson, Chris Bregler, Kevin Murphy
+* Index: arXiv 1701.01779
+* Reading date: 12/07/2018
+* Categories: Computer Vision
+* Tag: Pose estimation
+
+This paper introduces Google's work at COCO 2017 Keypoints Challenge. They proposed a top-down pose estimator which achieves state-of-the-art performance and shows the effectiveness of top-down approaches. By predicting heatmap and a refining vector, their approaches predict keypoints without de-convolution. They also proposed OKS-NMS based on object keypoint similarity to avoid eliminating persons in crowd scene.
+
+Finally, they won the winner of COCO 2017 Keypoints Challenge and after their work, top-down methods dominate the state-of-the-art performance of human pose estimation tasks.
+
 ### Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields
 * Authors: Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh
 * Index: arXiv: 1611.08050
