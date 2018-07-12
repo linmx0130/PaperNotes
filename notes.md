@@ -1,3 +1,14 @@
+### Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields
+* Authors: Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh
+* Index: arXiv: 1611.08050
+* Reading date: 12/07/2018
+* Categories: Computer Vision
+* Tag: Pose estimation
+
+This work presents Part Affinity Fields model for pose estimation, which is the winner of COCO 2016 Keypoints Challenge. The proposed method is a bottom-up method, which means that it detects keypoints first and constructs the whole bodies with the keypoints without human detection. The authors proposed part affinity fields, which are 2-D fields to reflect the connection of limbs (the edges between the keypoints). The ground truth of the fields is unit vectors of the connection direction on limbs. Integrating through the limbs from one keypoint to another will get a large value, while orthogonal to the limbs will obtain a value near zero. Based on the part affinity fields, a greedy algorithm is used to recover the whole skeletons based on predicted keypoints.
+
+The experiments on MPII and COCO datasets show both the performance and efficiency of the proposed method. The authors also analyzed some failure cases. 
+
 ### Learning to Refine Human Pose Estimation
 * Authors: Mihai Fieraru, Anna Khoreva, Leonid Pishchulin, Bernt Schiele
 * Index: arXiv 1804.07909
