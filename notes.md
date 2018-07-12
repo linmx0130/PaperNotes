@@ -1,3 +1,14 @@
+### Learning to Refine Human Pose Estimation
+* Authors: Mihai Fieraru, Anna Khoreva, Leonid Pishchulin, Bernt Schiele
+* Index: arXiv 1804.07909
+* Reading date: 12/07/2018
+* Categories: Computer Vision
+* Tag: Pose estimation
+
+This work proposed to use ResNet as a refiner to perform post-processing on outputs of other pose estimators to achieve better performance. The authors proposed four different methods to generate four kinds of frequent mistakes in pose estimation and ask the network.
+
+The experiments show a significant improvements after refining on single-person and multi-person pose estimation tasks and articulated tracking. The proposed data synthesis method is heuristic but useful.
+
 ### Graphical Generative Adversarial Networks
 * Authors: Chongxuan Li, Max Welling, Jun Zhu, Bo Zhang
 * Index: arXiv 1804.03429
