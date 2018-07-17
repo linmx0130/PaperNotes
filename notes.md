@@ -1,3 +1,14 @@
+### Convolutional Pose Machines
+* Authors: Shih-En Wei, Varun Ramakrishna, Takeo Kanade, Yaser Sheikh
+* Index: arXiv 1602.00134
+* Reading date: 17/07/2018
+* Categories: Computer Vision
+* Tag: Pose Estimation
+
+This work is the first pose estimation algorithm based on convolutional netrual networks. They proposed to use convolutonal networks to predict a heatmap for the keypoints. With experiments they show the importance of large receptive fields in pose estimation. They also utilize intermediate supervision to train the large network.
+
+Their experiments on various validate the possibility of solving pose estimation task with convolutional networks. And their work also guides later works in this area.
+
 ### Towards Accurate Multi-person Pose Estimation in the Wild
 * Authors: George Papandreou, Tyler Zhu, Nori Kanazawa, Alexander Toshev, Jonathan Tompson, Chris Bregler, Kevin Murphy
 * Index: arXiv 1701.01779
