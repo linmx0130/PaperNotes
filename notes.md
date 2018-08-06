@@ -1,3 +1,14 @@
+### CornerNet: Detecting Objects as Paired Keypoints
+* Authors: Hei Law, Jia Deng
+* Index: arXiv 1808.01244
+* Reading date: 06/08/2018
+* Categories: Computer Vision
+* Tag: Object detection
+
+This work presents a new framework for object detection by detecting two corners of the object. In this way, the proposed methods avoid using anchors in object detection. In order to group top-left corners and bottom-right corners, the authors utilized an associate embedding method. Finally, the proposed corner pooling extends the respective fields effectively and make it easier to learn corners.
+
+The experiments are performed on COCO dataset. With simple techniques to train one-stage object detectors, the proposed CornerNet outperfrom all state-of-the-art one-stage object detectors. The proposed new framework is interesting and it provides a new idea for object detection.
+
 ### Convolutional Pose Machines
 * Authors: Shih-En Wei, Varun Ramakrishna, Takeo Kanade, Yaser Sheikh
 * Index: arXiv 1602.00134
