@@ -1,3 +1,14 @@
+### PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
+* Authors: Charles R. Qi, Hao Su, Kaichun Mo, Leonidas J. Guibas
+* Index: arXiv 1612.00593
+* Reading date: 15/08/2018
+* Categories: Computer Vision
+* Tag: 3D vision
+
+This work presents a novel network architecture for model 3D geometric data, which is named after PointNet. PointNet feeds on an unordered set of points and produce a classification output of the whole set or each point in the set. Because of the properties of the 3D point sets, PointNet is invariant under transformation and the permutations of the inputs. This architecture features with some transformation module to "align" the points and a max pooling layer to generate the global feature of the set, which is unrelated to the order of the input points. 
+
+The experiments show the proposed model posed new state-of-the-art results on various datasets. The authors also provided a theoretical analysis that PointNet is a universal continuous set function approximator. This work starts deep learning for 3D vision.
+
 ### CornerNet: Detecting Objects as Paired Keypoints
 * Authors: Hei Law, Jia Deng
 * Index: arXiv 1808.01244
