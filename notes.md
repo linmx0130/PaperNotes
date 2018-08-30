@@ -1,3 +1,14 @@
+### Policy invariance under reward transformations: Theory and applications to reward shaping
+* Authors: Andrew Y. Ng, Daishi Harada, Stuart Russel
+* Index: ICML 1999
+* Reading date: 29/08/2018
+* Categories: Machine Learning
+* Tag: Reinforcement learning
+
+This paper proposed a principle to design reward shaping functions for accelerating reinforcement learning. They proposed the potential-based shaping function and showed that this functions is a necessary and sufficient condition to guarantee consistency with the optimal policy.
+
+The experiments also show that the proposed method accelerated training significantly. Now this method is widely used with Q-learning algorithm. 
+
 ### PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 * Authors: Charles R. Qi, Hao Su, Kaichun Mo, Leonidas J. Guibas
 * Index: arXiv 1612.00593
