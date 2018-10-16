@@ -1,3 +1,14 @@
+### Graph HyperNetworks for Neural Architecture Search
+* Authors: Chris Zhang, Mengye Ren, Raquel Urtasun
+* Index: arXiv 1810.05749
+* Reading date: 16/10/2018
+* Categories: Machine Learning
+* Tag: Neural architecture search
+
+This work presents a novel method to save time cost in neural architecture search by meta-learning. A graph hypernetwork is proposed to generate trainable weights of a sampled neural network, which eliminates the tedious training procedure and fasten the searching.
+
+The experiments show the significant time reducing of the proposed method. It also shows the power of meta-learning for trainable weights. It is worth trying to apply this method to other areas.
+
 ### Policy invariance under reward transformations: Theory and applications to reward shaping
 * Authors: Andrew Y. Ng, Daishi Harada, Stuart Russel
 * Index: ICML 1999
