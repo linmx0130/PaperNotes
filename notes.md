@@ -1,3 +1,14 @@
+### Deep Contextualized Word Representations
+* Authors: Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer
+* Index arXiv 1802.05365
+* Reading date: 23/10/2018
+* Categories: Natural Language Processing
+* Tag: Word representations, Transfer learning
+
+This work presents a novel method to build pre-trained word representations, which is named after ELMo (Embeddings from Language Models). The proposed method advances the performance of various natural language processing tasks from question answering to semantic role labeling consistently. 
+
+The proposed method extracts word representations from the hidden layers of a bidirectional language model and combined these vectors with a weighted sum manner. In this way, ELMo contains both high-level and low-level information. This work proves the possibility of pretraining deeper neural networks for natural language and the efficiency of deeper embeddings.
+
 ### Graph HyperNetworks for Neural Architecture Search
 * Authors: Chris Zhang, Mengye Ren, Raquel Urtasun
 * Index: arXiv 1810.05749
