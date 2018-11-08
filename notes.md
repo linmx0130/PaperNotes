@@ -1,3 +1,14 @@
+### Straight to the Facts: Learning Knowledge Base Retrieval for Factual Visual Question Answering
+* Authors: Medhini Narasimhan, Alexander G. Schwing
+* Index: arXiv 1809.01124
+* Reading date: 08/11/2018
+* Categoreis: Natural Language Processing, Computer Vision
+* Tag: Visual question answering
+
+This paper presents a framework for building visual question answering system with knowledge base retrieval ability. The framework is equiped with a binary classifier for predicting the source of answer (from the image or knowledge base). Then the representations of the questions and images are used to retrieve answer facts by scoring fact representations with a distance to question representations.
+
+The experiments show the effectiveness of the proposed methods. The model is highly explainable, but most feature extractors are fixed (including object detectors, image feature extractors and fact representations). It is possible to extend this framework in the future.
+
 ### Deep Contextualized Word Representations
 * Authors: Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer
 * Index arXiv 1802.05365
