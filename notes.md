@@ -1,3 +1,14 @@
+### Compositional Attention Networks for Machine Reasoning
+* Author: Drew A. Hudson, Christopher D. Manning
+* Index: arXiv 1803.03067
+* Reading date: 19/11/2018
+* Categories: Natural Language Processing, Computer Vision
+* Tag: Visual questing answering, Machine reasoning
+
+This work presents MAC (Memory, Attention and Composition) network for machine reasoning. Inspired by computer architecture, the proposed MAC cell is composed by a control, a read and a write cell. Each cell is designed with the principle of attention. By recurrently attending to different part of the image knowledge source, the proposed network is able to solve reasoning tasks.
+
+The experiments on CLEVR datasets show the effectiveness of the proposed method. They achieve a new SOTA of 98.9% accuracy. The visualization results also show the good interpretability of the proposed method. 
+
 ### Straight to the Facts: Learning Knowledge Base Retrieval for Factual Visual Question Answering
 * Authors: Medhini Narasimhan, Alexander G. Schwing
 * Index: arXiv 1809.01124
